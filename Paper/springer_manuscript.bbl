@@ -1,0 +1,453 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{26}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\url{https://doi.org/#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\bibcommenthead
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem[\protect\citeauthoryear{Gowen et~al.}{2007}]{gowen2007hyperspectral}
+\begin{barticle}
+\bauthor{\bsnm{Gowen}, \binits{A.A.}},
+\bauthor{\bsnm{O'donnell}, \binits{C.P.}},
+\bauthor{\bsnm{Cullen}, \binits{P.}},
+\bauthor{\bsnm{Downey}, \binits{G.}}:
+\batitle{Hyperspectral imaging--an emerging process analytical tool for food
+  quality and safety control}.
+\bjtitle{Trends in food science \& technology}
+\bvolume{18}(\bissue{12}),
+\bfpage{590}--\blpage{598}
+(\byear{2007})
+\end{barticle}
+\endbibitem
+
+%%% 2
+\bibitem[\protect\citeauthoryear{Paoletti et~al.}{2019}]{paoletti2019deep}
+\begin{barticle}
+\bauthor{\bsnm{Paoletti}, \binits{M.}},
+\bauthor{\bsnm{Haut}, \binits{J.}},
+\bauthor{\bsnm{Plaza}, \binits{J.}},
+\bauthor{\bsnm{Plaza}, \binits{A.}}:
+\batitle{Deep learning classifiers for hyperspectral imaging: A review}.
+\bjtitle{ISPRS Journal of Photogrammetry and Remote Sensing}
+\bvolume{158},
+\bfpage{279}--\blpage{317}
+(\byear{2019})
+\end{barticle}
+\endbibitem
+
+%%% 3
+\bibitem[\protect\citeauthoryear{Vaswani et~al.}{2017}]{vaswani2017attention}
+\begin{botherref}
+\oauthor{\bsnm{Vaswani}, \binits{A.}},
+\oauthor{\bsnm{Shazeer}, \binits{N.}},
+\oauthor{\bsnm{Parmar}, \binits{N.}},
+\oauthor{\bsnm{Uszkoreit}, \binits{J.}},
+\oauthor{\bsnm{Jones}, \binits{L.}},
+\oauthor{\bsnm{Gomez}, \binits{A.N.}},
+\oauthor{\bsnm{Kaiser}, \binits{{\L}.}},
+\oauthor{\bsnm{Polosukhin}, \binits{I.}}:
+Attention is all you need.
+Advances in neural information processing systems
+\textbf{30}
+(2017)
+\end{botherref}
+\endbibitem
+
+%%% 4
+\bibitem[\protect\citeauthoryear{Dosovitskiy
+  et~al.}{2020}]{dosovitskiy2020image}
+\begin{botherref}
+\oauthor{\bsnm{Dosovitskiy}, \binits{A.}},
+\oauthor{\bsnm{Beyer}, \binits{L.}},
+\oauthor{\bsnm{Kolesnikov}, \binits{A.}},
+\oauthor{\bsnm{Weissenborn}, \binits{D.}},
+\oauthor{\bsnm{Zhai}, \binits{X.}},
+\oauthor{\bsnm{Unterthiner}, \binits{T.}},
+\oauthor{\bsnm{Dehghani}, \binits{M.}},
+\oauthor{\bsnm{Minderer}, \binits{M.}},
+\oauthor{\bsnm{Heigold}, \binits{G.}},
+\oauthor{\bsnm{Gelly}, \binits{S.}}, et al.:
+An image is worth 16x16 words: Transformers for image recognition at scale.
+arXiv preprint arXiv:2010.11929
+(2020)
+\end{botherref}
+\endbibitem
+
+%%% 5
+\bibitem[\protect\citeauthoryear{Mahendran
+  et~al.}{2012}]{mahendran2012application}
+\begin{barticle}
+\bauthor{\bsnm{Mahendran}, \binits{R.}},
+\bauthor{\bsnm{Jayashree}, \binits{G.}},
+\bauthor{\bsnm{Alagusundaram}, \binits{K.}}:
+\batitle{Application of computer vision technique on sorting and grading of
+  fruits and vegetables}.
+\bjtitle{Journal of food processing and technology}
+\bvolume{10}(\bissue{1}),
+\bfpage{1}--\blpage{7}
+(\byear{2012})
+\end{barticle}
+\endbibitem
+
+%%% 6
+\bibitem[\protect\citeauthoryear{Narendra and
+  Hareesh}{2010}]{narendra2010prospects}
+\begin{barticle}
+\bauthor{\bsnm{Narendra}, \binits{V.}},
+\bauthor{\bsnm{Hareesh}, \binits{K.}}:
+\batitle{Prospects of computer vision technology in agriculture}.
+\bjtitle{International Journal of Computer Applications}
+\bvolume{1}(\bissue{4}),
+\bfpage{53}--\blpage{60}
+(\byear{2010})
+\end{barticle}
+\endbibitem
+
+%%% 7
+\bibitem[\protect\citeauthoryear{Shao and He}{2011}]{shao2011visible}
+\begin{barticle}
+\bauthor{\bsnm{Shao}, \binits{Y.}},
+\bauthor{\bsnm{He}, \binits{Y.}}:
+\batitle{Visible/near infrared spectrometric technique for nondestructive
+  assessment of tomato ‘fengshou’(lycopersicon esculentum) quality
+  characteristics}.
+\bjtitle{Journal of food engineering}
+\bvolume{81}(\bissue{4}),
+\bfpage{672}--\blpage{678}
+(\byear{2011})
+\end{barticle}
+\endbibitem
+
+%%% 8
+\bibitem[\protect\citeauthoryear{Penchaiya et~al.}{2009}]{penchaiya2009non}
+\begin{barticle}
+\bauthor{\bsnm{Penchaiya}, \binits{P.}},
+\bauthor{\bsnm{Bobelyn}, \binits{E.}},
+\bauthor{\bsnm{Verlinden}, \binits{B.}},
+\bauthor{\bsnm{Nicola{\i}}, \binits{B.}},
+\bauthor{\bsnm{Saengnil}, \binits{K.}},
+\bauthor{\bsnm{Uthaibutra}, \binits{J.}}:
+\batitle{Non-destructive evaluation of durian maturity by time-resolved
+  reflectance spectroscopy}.
+\bjtitle{Postharvest Biology and Technology}
+\bvolume{52}(\bissue{3}),
+\bfpage{250}--\blpage{254}
+(\byear{2009})
+\end{barticle}
+\endbibitem
+
+%%% 9
+\bibitem[\protect\citeauthoryear{Sun}{2010}]{sun2010hyperspectral}
+\begin{botherref}
+\oauthor{\bsnm{Sun}, \binits{D.-W.}}:
+Hyperspectral imaging for safety inspection of food and agricultural products.
+Hyperspectral imaging for food quality analysis and control,
+33--73
+(2010)
+\end{botherref}
+\endbibitem
+
+%%% 10
+\bibitem[\protect\citeauthoryear{ElMasry and Sun}{2012}]{elmasry2012principles}
+\begin{bbook}
+\bauthor{\bsnm{ElMasry}, \binits{G.}},
+\bauthor{\bsnm{Sun}, \binits{D.-W.}}:
+\bbtitle{Principles of Hyperspectral Imaging Technology}.
+\bpublisher{Academic Press},
+\blocation{New York}
+(\byear{2012})
+\end{bbook}
+\endbibitem
+
+%%% 11
+\bibitem[\protect\citeauthoryear{Wei et~al.}{2014}]{wei2014determination}
+\begin{barticle}
+\bauthor{\bsnm{Wei}, \binits{X.}},
+\bauthor{\bsnm{He}, \binits{J.-g.}},
+\bauthor{\bsnm{Wu}, \binits{D.}},
+\bauthor{\bsnm{Feng}, \binits{J.-p.}}:
+\batitle{Determination of firmness and soluble solids content of pear by
+  hyperspectral imaging under different light sources}.
+\bjtitle{Journal of food engineering}
+\bvolume{122},
+\bfpage{34}--\blpage{39}
+(\byear{2014})
+\end{barticle}
+\endbibitem
+
+%%% 12
+\bibitem[\protect\citeauthoryear{Qin et~al.}{2013}]{qin2013hyperspectral}
+\begin{barticle}
+\bauthor{\bsnm{Qin}, \binits{J.}},
+\bauthor{\bsnm{Chao}, \binits{K.}},
+\bauthor{\bsnm{Kim}, \binits{M.S.}},
+\bauthor{\bsnm{Lu}, \binits{R.}},
+\bauthor{\bsnm{Burks}, \binits{T.F.}}:
+\batitle{Hyperspectral imaging for food quality analysis and control}.
+\bjtitle{Comprehensive Reviews in Food Science and Food Safety}
+\bvolume{12}(\bissue{1}),
+\bfpage{93}--\blpage{130}
+(\byear{2013})
+\end{barticle}
+\endbibitem
+
+%%% 13
+\bibitem[\protect\citeauthoryear{Lu}{2013}]{lu2013detection}
+\begin{barticle}
+\bauthor{\bsnm{Lu}, \binits{R.}}:
+\batitle{Detection of bruises on apples using near-infrared hyperspectral
+  imaging}.
+\bjtitle{Transactions of the ASAE}
+\bvolume{46}(\bissue{2}),
+\bfpage{523}--\blpage{530}
+(\byear{2013})
+\end{barticle}
+\endbibitem
+
+%%% 14
+\bibitem[\protect\citeauthoryear{Schmilovitch
+  et~al.}{2000}]{schmilovitch2000determination}
+\begin{barticle}
+\bauthor{\bsnm{Schmilovitch}, \binits{Z.}},
+\bauthor{\bsnm{Mizrach}, \binits{A.}},
+\bauthor{\bsnm{Hoffman}, \binits{A.}},
+\bauthor{\bsnm{Egozi}, \binits{H.}},
+\bauthor{\bsnm{Fuchs}, \binits{Y.}}:
+\batitle{Determination of mango physiological indices by near-infrared
+  spectrometry}.
+\bjtitle{Postharvest biology and technology}
+\bvolume{19}(\bissue{3}),
+\bfpage{245}--\blpage{252}
+(\byear{2000})
+\end{barticle}
+\endbibitem
+
+%%% 15
+\bibitem[\protect\citeauthoryear{Shao et~al.}{2007}]{shao2007visible}
+\begin{barticle}
+\bauthor{\bsnm{Shao}, \binits{Y.}},
+\bauthor{\bsnm{He}, \binits{Y.}},
+\bauthor{\bsnm{G{\'o}mez}, \binits{A.}},
+\bauthor{\bsnm{Pereir}, \binits{A.}},
+\bauthor{\bsnm{Qiu}, \binits{Z.}},
+\bauthor{\bsnm{Zhang}, \binits{Y.}}:
+\batitle{Visible/near infrared spectrometric technique for nondestructive
+  assessment of tomato ‘fengshou’(lycopersicon esculentum) quality
+  characteristics}.
+\bjtitle{Journal of food engineering}
+\bvolume{81}(\bissue{4}),
+\bfpage{672}--\blpage{678}
+(\byear{2007})
+\end{barticle}
+\endbibitem
+
+%%% 16
+\bibitem[\protect\citeauthoryear{Eisenstecken
+  et~al.}{2015}]{eisenstecken2015near}
+\begin{barticle}
+\bauthor{\bsnm{Eisenstecken}, \binits{D.}},
+\bauthor{\bsnm{Zanella}, \binits{A.}},
+\bauthor{\bsnm{Brandes}, \binits{W.}},
+\bauthor{\bsnm{Spitaler}, \binits{R.}},
+\bauthor{\bsnm{N{\v{c}}ul{\i}}, \binits{B.}},
+\bauthor{\bsnm{Verlinden}, \binits{B.}}:
+\batitle{Near infrared spectroscopy as a tool for the non-destructive
+  prediction of intact apple quality}.
+\bjtitle{Postharvest Biology and Technology}
+\bvolume{106},
+\bfpage{42}--\blpage{47}
+(\byear{2015})
+\end{barticle}
+\endbibitem
+
+%%% 17
+\bibitem[\protect\citeauthoryear{Xiao et~al.}{2020}]{xiao2020recent}
+\begin{barticle}
+\bauthor{\bsnm{Xiao}, \binits{Q.}},
+\bauthor{\bsnm{Bai}, \binits{S.}},
+\bauthor{\bsnm{Li}, \binits{X.}},
+\bauthor{\bsnm{He}, \binits{Y.}}:
+\batitle{Recent advances in non-destructive detection of fruit quality using
+  hyperspectral imaging}.
+\bjtitle{Sensors}
+\bvolume{20}(\bissue{9}),
+\bfpage{2626}
+(\byear{2020})
+\end{barticle}
+\endbibitem
+
+%%% 18
+\bibitem[\protect\citeauthoryear{Tian et~al.}{2007}]{tian2007measurement}
+\begin{barticle}
+\bauthor{\bsnm{Tian}, \binits{X.}},
+\bauthor{\bsnm{Sun}, \binits{J.}},
+\bauthor{\bsnm{Peng}, \binits{Y.}},
+\bauthor{\bsnm{Wang}, \binits{Y.}}:
+\batitle{Measurement of internal quality of intact tomato using a
+  visible/near-infrared transmittance system}.
+\bjtitle{Sensing and Instrumentation for Food Quality and Safety}
+\bvolume{1}(\bissue{2}),
+\bfpage{94}--\blpage{99}
+(\byear{2007})
+\end{barticle}
+\endbibitem
+
+%%% 19
+\bibitem[\protect\citeauthoryear{Magwaza et~al.}{2012}]{magwaza2012nir}
+\begin{barticle}
+\bauthor{\bsnm{Magwaza}, \binits{L.}},
+\bauthor{\bsnm{Opara}, \binits{U.}},
+\bauthor{\bsnm{Nieuwoudt}, \binits{H.}},
+\bauthor{\bsnm{Cronje}, \binits{P.}},
+\bauthor{\bsnm{Saeys}, \binits{W.}},
+\bauthor{\bsnm{Nicola{\i}}, \binits{B.}}:
+\batitle{Nir spectroscopy applications for internal and external quality
+  analysis of citrus fruit—a review}.
+\bjtitle{Food and bioprocess technology}
+\bvolume{5}(\bissue{2}),
+\bfpage{425}--\blpage{444}
+(\byear{2012})
+\end{barticle}
+\endbibitem
+
+%%% 20
+\bibitem[\protect\citeauthoryear{Li et~al.}{2017}]{li2017spectral}
+\begin{barticle}
+\bauthor{\bsnm{Li}, \binits{Y.}},
+\bauthor{\bsnm{Zhang}, \binits{H.}},
+\bauthor{\bsnm{Shen}, \binits{Q.}}:
+\batitle{Spectral and spatial features fusion for hyperspectral image
+  classification based on 3d-cnn}.
+\bjtitle{Remote Sensing}
+\bvolume{9}(\bissue{3}),
+\bfpage{227}
+(\byear{2017})
+\end{barticle}
+\endbibitem
+
+%%% 21
+\bibitem[\protect\citeauthoryear{He et~al.}{2016}]{he2016deep}
+\begin{botherref}
+\oauthor{\bsnm{He}, \binits{K.}},
+\oauthor{\bsnm{Zhang}, \binits{X.}},
+\oauthor{\bsnm{Ren}, \binits{S.}},
+\oauthor{\bsnm{Sun}, \binits{J.}}:
+Deep residual learning for image recognition.
+Proceedings of the IEEE conference on computer vision and pattern recognition,
+770--778
+(2016)
+\end{botherref}
+\endbibitem
+
+%%% 22
+\bibitem[\protect\citeauthoryear{Hong et~al.}{2021}]{hong2021spectralformer}
+\begin{barticle}
+\bauthor{\bsnm{Hong}, \binits{D.}},
+\bauthor{\bsnm{Han}, \binits{Z.}},
+\bauthor{\bsnm{Yao}, \binits{J.}},
+\bauthor{\bsnm{Gao}, \binits{L.}},
+\bauthor{\bsnm{Zhang}, \binits{B.}},
+\bauthor{\bsnm{Plaza}, \binits{A.}}:
+\batitle{Spectralformer: Rethinking hyperspectral image classification with
+  transformers}.
+\bjtitle{IEEE Transactions on Geoscience and Remote Sensing}
+\bvolume{60},
+\bfpage{1}--\blpage{15}
+(\byear{2021})
+\end{barticle}
+\endbibitem
+
+%%% 23
+\bibitem[\protect\citeauthoryear{Loshchilov and
+  Hutter}{2017}]{loshchilov2017decoupled}
+\begin{botherref}
+\oauthor{\bsnm{Loshchilov}, \binits{I.}},
+\oauthor{\bsnm{Hutter}, \binits{F.}}:
+Decoupled weight decay regularization.
+arXiv preprint arXiv:1711.05101
+(2017)
+\end{botherref}
+\endbibitem
+
+%%% 24
+\bibitem[\protect\citeauthoryear{Srivastava
+  et~al.}{2014}]{srivastava2014dropout}
+\begin{barticle}
+\bauthor{\bsnm{Srivastava}, \binits{N.}},
+\bauthor{\bsnm{Hinton}, \binits{G.}},
+\bauthor{\bsnm{Krizhevsky}, \binits{A.}},
+\bauthor{\bsnm{Sutskever}, \binits{I.}},
+\bauthor{\bsnm{Salakhutdinov}, \binits{R.}}:
+\batitle{Dropout: a simple way to prevent neural networks from overfitting}.
+\bjtitle{The journal of machine learning research}
+\bvolume{15}(\bissue{1}),
+\bfpage{1929}--\blpage{1958}
+(\byear{2014})
+\end{barticle}
+\endbibitem
+
+%%% 25
+\bibitem[\protect\citeauthoryear{Kingma and Ba}{2014}]{kingma2014adam}
+\begin{botherref}
+\oauthor{\bsnm{Kingma}, \binits{D.P.}},
+\oauthor{\bsnm{Ba}, \binits{J.}}:
+Adam: A method for stochastic optimization.
+arXiv preprint arXiv:1412.6980
+(2014)
+\end{botherref}
+\endbibitem
+
+%%% 26
+\bibitem[\protect\citeauthoryear{Sundararajan
+  et~al.}{2017}]{sundararajan2017axiomatic}
+\begin{botherref}
+\oauthor{\bsnm{Sundararajan}, \binits{M.}},
+\oauthor{\bsnm{Taly}, \binits{A.}},
+\oauthor{\bsnm{Yan}, \binits{Q.}}:
+Axiomatic attribution for deep networks.
+International conference on machine learning,
+3319--3328
+(2017)
+\end{botherref}
+\endbibitem
+
+\end{thebibliography}
