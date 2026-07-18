@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.7)  18 JUL 2026 10:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.7)  18 JUL 2026 11:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1098,14 +1098,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has
                                                   \__shipout_drop_firstpage_...
 l.355 
       ]
-<../Images/gui_screenshot.png, id=268, 743.8992pt x 3038.7126pt>
+<../Images/gui_screenshot.png, id=268, 1589.94pt x 6370.80125pt>
 File: ../Images/gui_screenshot.png Graphic file (type png)
 <use ../Images/gui_screenshot.png>
 Package pdftex.def Info: ../Images/gui_screenshot.png  used on input line 361.
-(pdftex.def)             Requested size: 353.39886pt x 1443.58899pt.
+(pdftex.def)             Requested size: 353.39886pt x 1416.065pt.
 
 
-LaTeX Warning: Float too large for page by 904.19977pt on input line 363.
+LaTeX Warning: Float too large for page by 876.67578pt on input line 363.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1125,18 +1125,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16])
+ [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18
+ [17])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19
 pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.378 \end{document}
+l.379 \end{document}
                      <../Images/gui_screenshot.png>] (springer_manuscript.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -1146,13 +1152,13 @@ Package rerunfilecheck Info: File `springer_manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: 679EA7123C2E226901771B23110A4E0A;4521.
  ) 
 Here is how much of TeX's memory you used:
- 12865 strings out of 467871
- 203060 string characters out of 5418377
- 617639 words of memory out of 5000000
- 41445 multiletter control sequences out of 15000+600000
+ 12922 strings out of 467871
+ 204461 string characters out of 5418377
+ 618117 words of memory out of 5000000
+ 41487 multiletter control sequences out of 15000+600000
  660534 words of font info for 164 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 90i,12n,93p,2335b,664s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,93p,2335b,692s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\devgu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi602\tcrm
 1000.pk><C:/Users/devgu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbsy10.pfb><C:/Users/devgu/AppData/Local/Programs/MiKTeX/fonts/type1/pub
@@ -1182,9 +1188,9 @@ C:/Users/devgu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
 onts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/devgu/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/devgu/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on springer_manuscript.pdf (18 pages, 3367746 bytes).
+Output written on springer_manuscript.pdf (19 pages, 3389758 bytes).
 PDF statistics:
- 428 PDF objects out of 1000 (max. 8388607)
- 93 named destinations out of 1000 (max. 500000)
+ 449 PDF objects out of 1000 (max. 8388607)
+ 108 named destinations out of 1000 (max. 500000)
  240 words of extra memory for PDF output out of 10000 (max. 10000000)
 

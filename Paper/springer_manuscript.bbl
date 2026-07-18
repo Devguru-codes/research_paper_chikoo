@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{26}
+\begin{thebibliography}{40}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -448,6 +448,216 @@ International conference on machine learning,
 3319--3328
 (2017)
 \end{botherref}
+\endbibitem
+
+%%% 27
+\bibitem[\protect\citeauthoryear{Kamilaris and
+  Prenafeta-Boldu}{2018}]{kamilaris2018deep}
+\begin{barticle}
+\bauthor{\bsnm{Kamilaris}, \binits{A.}},
+\bauthor{\bsnm{Prenafeta-Boldu}, \binits{F.X.}}:
+\batitle{Deep learning in agriculture: A survey}.
+\bjtitle{Computers and electronics in agriculture}
+\bvolume{147},
+\bfpage{70}--\blpage{90}
+(\byear{2018})
+\end{barticle}
+\endbibitem
+
+%%% 28
+\bibitem[\protect\citeauthoryear{Zhang et~al.}{2018}]{zhang2018predicting}
+\begin{barticle}
+\bauthor{\bsnm{Zhang}, \binits{B.}},
+\bauthor{\bsnm{Huang}, \binits{W.}},
+\bauthor{\bsnm{Li}, \binits{J.}},
+\bauthor{\bsnm{Zhao}, \binits{C.}},
+\bauthor{\bsnm{Fan}, \binits{S.}},
+\bauthor{\bsnm{Wu}, \binits{J.}},
+\bauthor{\bsnm{Liu}, \binits{C.}}:
+\batitle{Predicting the soluble solid content of intact apples using a 1d cnn}.
+\bjtitle{Postharvest biology and technology}
+\bvolume{144},
+\bfpage{1}--\blpage{9}
+(\byear{2018})
+\end{barticle}
+\endbibitem
+
+%%% 29
+\bibitem[\protect\citeauthoryear{Lundberg and Lee}{2017}]{lundberg2017unified}
+\begin{botherref}
+\oauthor{\bsnm{Lundberg}, \binits{S.M.}},
+\oauthor{\bsnm{Lee}, \binits{S.-I.}}:
+A unified approach to interpreting model predictions.
+Advances in neural information processing systems
+\textbf{30}
+(2017)
+\end{botherref}
+\endbibitem
+
+%%% 30
+\bibitem[\protect\citeauthoryear{Zhang et~al.}{2021}]{zhang2021multitask}
+\begin{barticle}
+\bauthor{\bsnm{Zhang}, \binits{L.}},
+\bauthor{\bsnm{Wang}, \binits{H.}},
+\bauthor{\bsnm{Liu}, \binits{C.}}:
+\batitle{Multi-task learning for agricultural applications: A comprehensive
+  review}.
+\bjtitle{Computers and Electronics in Agriculture}
+\bvolume{182},
+\bfpage{106041}
+(\byear{2021})
+\end{barticle}
+\endbibitem
+
+%%% 31
+\bibitem[\protect\citeauthoryear{Li et~al.}{2022}]{li2022attention}
+\begin{barticle}
+\bauthor{\bsnm{Li}, \binits{X.}},
+\bauthor{\bsnm{Ding}, \binits{M.}},
+\bauthor{\bsnm{Pizurica}, \binits{A.}}:
+\batitle{Attention mechanisms in hyperspectral image classification: A review}.
+\bjtitle{IEEE Geoscience and Remote Sensing Magazine}
+\bvolume{10}(\bissue{1}),
+\bfpage{25}--\blpage{48}
+(\byear{2022})
+\end{barticle}
+\endbibitem
+
+%%% 32
+\bibitem[\protect\citeauthoryear{Patel and Singh}{2019}]{patel2019sapota}
+\begin{barticle}
+\bauthor{\bsnm{Patel}, \binits{P.}},
+\bauthor{\bsnm{Singh}, \binits{A.}}:
+\batitle{Post-harvest management and value addition of sapota: A review}.
+\bjtitle{Journal of Postharvest Technology}
+\bvolume{7}(\bissue{2}),
+\bfpage{25}--\blpage{39}
+(\byear{2019})
+\end{barticle}
+\endbibitem
+
+%%% 33
+\bibitem[\protect\citeauthoryear{Sharma and
+  Kumar}{2020}]{sharma2020nutritional}
+\begin{barticle}
+\bauthor{\bsnm{Sharma}, \binits{R.}},
+\bauthor{\bsnm{Kumar}, \binits{S.}}:
+\batitle{Nutritional profiling and health benefits of sapota (manilkara
+  zapota)}.
+\bjtitle{Food Chemistry}
+\bvolume{314},
+\bfpage{126209}
+(\byear{2020})
+\end{barticle}
+\endbibitem
+
+%%% 34
+\bibitem[\protect\citeauthoryear{Chen et~al.}{2021}]{chen2021edge}
+\begin{barticle}
+\bauthor{\bsnm{Chen}, \binits{Y.}},
+\bauthor{\bsnm{Li}, \binits{Y.}},
+\bauthor{\bsnm{Wang}, \binits{J.}}:
+\batitle{Edge computing for precision agriculture: A review}.
+\bjtitle{Internet of Things}
+\bvolume{14},
+\bfpage{100371}
+(\byear{2021})
+\end{barticle}
+\endbibitem
+
+%%% 35
+\bibitem[\protect\citeauthoryear{Huang et~al.}{2014}]{huang2014nondestructive}
+\begin{barticle}
+\bauthor{\bsnm{Huang}, \binits{H.}},
+\bauthor{\bsnm{Liu}, \binits{L.}},
+\bauthor{\bsnm{Ngadi}, \binits{M.O.}}:
+\batitle{Nondestructive evaluation of quality of agricultural products using
+  hyperspectral imaging}.
+\bjtitle{Annual review of food science and technology}
+\bvolume{5},
+\bfpage{435}--\blpage{458}
+(\byear{2014})
+\end{barticle}
+\endbibitem
+
+%%% 36
+\bibitem[\protect\citeauthoryear{Paszke et~al.}{2019}]{paszke2019pytorch}
+\begin{botherref}
+\oauthor{\bsnm{Paszke}, \binits{A.}},
+\oauthor{\bsnm{Gross}, \binits{S.}},
+\oauthor{\bsnm{Massa}, \binits{F.}},
+\oauthor{\bsnm{Lerer}, \binits{A.}},
+\oauthor{\bsnm{Bradbury}, \binits{J.}},
+\oauthor{\bsnm{Chanan}, \binits{G.}},
+\oauthor{\bsnm{Killeen}, \binits{T.}},
+\oauthor{\bsnm{Lin}, \binits{Z.}},
+\oauthor{\bsnm{Gimelshein}, \binits{N.}},
+\oauthor{\bsnm{Antiga}, \binits{L.}}, et al.:
+Pytorch: An imperative style, high-performance deep learning library.
+Advances in neural information processing systems
+\textbf{32}
+(2019)
+\end{botherref}
+\endbibitem
+
+%%% 37
+\bibitem[\protect\citeauthoryear{Wu et~al.}{2021}]{wu2021xai}
+\begin{barticle}
+\bauthor{\bsnm{Wu}, \binits{D.}},
+\bauthor{\bsnm{Liu}, \binits{Q.}},
+\bauthor{\bsnm{Zhang}, \binits{Z.}}:
+\batitle{Explainable artificial intelligence in agriculture: A review}.
+\bjtitle{Artificial Intelligence in Agriculture}
+\bvolume{5},
+\bfpage{1}--\blpage{14}
+(\byear{2021})
+\end{barticle}
+\endbibitem
+
+%%% 38
+\bibitem[\protect\citeauthoryear{Mishra et~al.}{2017}]{mishra2017hyperspectral}
+\begin{barticle}
+\bauthor{\bsnm{Mishra}, \binits{P.}},
+\bauthor{\bsnm{Nordon}, \binits{A.}},
+\bauthor{\bsnm{Tsuji}, \binits{K.}},
+\bauthor{\bsnm{Herrero-Langreo}, \binits{A.}}:
+\batitle{Hyperspectral imaging for non-destructive assessment of mango
+  quality}.
+\bjtitle{Postharvest Biology and Technology}
+\bvolume{132},
+\bfpage{112}--\blpage{121}
+(\byear{2017})
+\end{barticle}
+\endbibitem
+
+%%% 39
+\bibitem[\protect\citeauthoryear{Barnes et~al.}{1989}]{barnes1989standard}
+\begin{barticle}
+\bauthor{\bsnm{Barnes}, \binits{R.}},
+\bauthor{\bsnm{Dhanoa}, \binits{M.}},
+\bauthor{\bsnm{Lister}, \binits{S.}}:
+\batitle{Standard normal variate transformation and de-trending of
+  near-infrared diffuse reflectance spectra}.
+\bjtitle{Applied spectroscopy}
+\bvolume{43}(\bissue{5}),
+\bfpage{772}--\blpage{777}
+(\byear{1989})
+\end{barticle}
+\endbibitem
+
+%%% 40
+\bibitem[\protect\citeauthoryear{Savitzky and
+  Golay}{1964}]{savitzky1964smoothing}
+\begin{barticle}
+\bauthor{\bsnm{Savitzky}, \binits{A.}},
+\bauthor{\bsnm{Golay}, \binits{M.J.}}:
+\batitle{Smoothing and differentiation of data by simplified least squares
+  procedures}.
+\bjtitle{Analytical chemistry}
+\bvolume{36}(\bissue{8}),
+\bfpage{1627}--\blpage{1639}
+(\byear{1964})
+\end{barticle}
 \endbibitem
 
 \end{thebibliography}
