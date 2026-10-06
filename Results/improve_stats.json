@@ -1,0 +1,88 @@
+{
+ "bootstrap_ci_95": {
+  "MT-ST + class-balanced loss": [
+   0.7450420168067227,
+   0.9148148148148149
+  ],
+  "MT-ST + self-supervised pretraining": [
+   0.8272639860139861,
+   0.9478341384863124
+  ],
+  "MT-ST + 5-seed ensemble": [
+   0.8285714285714286,
+   0.962962962962963
+  ],
+  "MT-ST+ (balanced + pretraining + ensemble)": [
+   0.8279862745098039,
+   0.966681818181818
+  ],
+  "SVM (RBF), class-balanced": [
+   0.8604651162790699,
+   0.9740740740740741
+  ],
+  "MT-ST (reference, fixed lr)": [
+   0.7608674339300938,
+   0.9360042553191489
+  ],
+  "SVM (RBF)": [
+   0.8127659574468085,
+   0.9692307692307693
+  ]
+ },
+ "tests_mtstplus_vs": {
+  "SVM (RBF)": {
+   "mean_diff": 0.0011111111111111072,
+   "t": 0.019497431687178917,
+   "p_t": 0.9846054778608915,
+   "p_wilcoxon": 0.5849596613614372,
+   "folds_mtstplus_better": 8,
+   "folds_tied": 12,
+   "folds_worse": 5
+  },
+  "SVM (RBF), class-balanced": {
+   "mean_diff": -0.023555555555555552,
+   "t": -0.3333290070459768,
+   "p_t": 0.7417805484859306,
+   "p_wilcoxon": 0.3112342907980342,
+   "folds_mtstplus_better": 8,
+   "folds_tied": 7,
+   "folds_worse": 10
+  },
+  "MT-ST (reference, fixed lr)": {
+   "mean_diff": 0.04355555555555554,
+   "t": 0.7319256501061797,
+   "p_t": 0.4713013353697706,
+   "p_wilcoxon": 0.027421838606317483,
+   "folds_mtstplus_better": 12,
+   "folds_tied": 10,
+   "folds_worse": 3
+  },
+  "MT-ST + class-balanced loss": {
+   "mean_diff": 0.06555555555555553,
+   "t": 1.0005780407896607,
+   "p_t": 0.327012950502766,
+   "p_wilcoxon": 0.02955722566795793,
+   "folds_mtstplus_better": 16,
+   "folds_tied": 4,
+   "folds_worse": 5
+  },
+  "MT-ST + self-supervised pretraining": {
+   "mean_diff": 0.00888888888888888,
+   "t": 0.17240218235606275,
+   "p_t": 0.8645669540860609,
+   "p_wilcoxon": 0.5362830231895717,
+   "folds_mtstplus_better": 7,
+   "folds_tied": 14,
+   "folds_worse": 4
+  },
+  "MT-ST + 5-seed ensemble": {
+   "mean_diff": -0.0017777777777777802,
+   "t": -0.03994389949359742,
+   "p_t": 0.9684682812830908,
+   "p_wilcoxon": 0.9018426437674963,
+   "folds_mtstplus_better": 6,
+   "folds_tied": 13,
+   "folds_worse": 6
+  }
+ }
+}

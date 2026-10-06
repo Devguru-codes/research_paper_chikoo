@@ -1,0 +1,71 @@
+{
+ "1D-CNN": {
+  "params": 32197,
+  "mflops_per_spectrum": 1.50144,
+  "latency": {
+   "cuda": {
+    "median_ms": 1.5787999982421752,
+    "p95_ms": 2.4386749988479997
+   },
+   "cpu_1thr": {
+    "median_ms": 0.7406500008073635,
+    "p95_ms": 1.1534750005012029
+   },
+   "cpu_4thr": {
+    "median_ms": 1.2153999996371567,
+    "p95_ms": 2.296445000683888
+   }
+  },
+  "sec_per_epoch": 0.11272398000000976,
+  "train_rows": 429,
+  "peak_vram_mb": 19.9541015625
+ },
+ "1D-ViT": {
+  "params": 403205,
+  "mflops_per_spectrum": 25.994496,
+  "latency": {
+   "cuda": {
+    "median_ms": 2.9460500009008683,
+    "p95_ms": 4.124859999683394
+   },
+   "cpu_1thr": {
+    "median_ms": 2.4003499984246446,
+    "p95_ms": 3.660925001531723
+   },
+   "cpu_4thr": {
+    "median_ms": 3.924749998986954,
+    "p95_ms": 6.965860002128464
+   }
+  },
+  "sec_per_epoch": 0.3951262200003839,
+  "train_rows": 429,
+  "peak_vram_mb": 49.10693359375
+ },
+ "MT-ST": {
+  "params": 547909,
+  "mflops_per_spectrum": 34.677376,
+  "latency": {
+   "cuda": {
+    "median_ms": 5.6496999986848095,
+    "p95_ms": 7.042949999959092
+   },
+   "cpu_1thr": {
+    "median_ms": 5.348900000171852,
+    "p95_ms": 6.548419997670862
+   },
+   "cpu_4thr": {
+    "median_ms": 7.577900001706439,
+    "p95_ms": 11.324540001078274
+   }
+  },
+  "sec_per_epoch": 0.5237497000001895,
+  "train_rows": 429,
+  "peak_vram_mb": 58.3173828125
+ },
+ "hardware": {
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "cpu": "12th Gen Intel(R) Core(TM) i7-12700H",
+  "torch": "2.5.1+cu124",
+  "cpu_threads": 20
+ }
+}
