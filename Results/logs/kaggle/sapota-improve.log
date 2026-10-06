@@ -1,0 +1,214 @@
+[{"stream_name":"stderr","time":5.227833137,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":5.227871075,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":6.012227639,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.012255569,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.012260477,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.012264237,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.567426215,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.567466344,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.567471978,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.567476614,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":15.759340803,"data":"2.11.0+cu128 1.6.1 Tesla T4\n"}
+,{"stream_name":"stdout","time":15.771932737,"data":"Writing models.py\n"}
+,{"stream_name":"stdout","time":15.794440849,"data":"Writing run_experiments.py\n"}
+,{"stream_name":"stdout","time":19.227766445,"data":"51 views, 27 fruits, stages=[18 23 10], device=cuda\r\n"}
+,{"stream_name":"stdout","time":156.329634496,"data":"pretrained seed 0: final masked-reconstruction MSE 0.010 (137s)\r\n"}
+,{"stream_name":"stdout","time":289.070405786,"data":"pretrained seed 1: final masked-reconstruction MSE 0.018 (133s)\r\n"}
+,{"stream_name":"stdout","time":421.435086248,"data":"pretrained seed 2: final masked-reconstruction MSE 0.030 (132s)\r\n"}
+,{"stream_name":"stdout","time":554.283263485,"data":"pretrained seed 3: final masked-reconstruction MSE 0.014 (133s)\r\n"}
+,{"stream_name":"stdout","time":686.616042809,"data":"pretrained seed 4: final masked-reconstruction MSE 0.014 (132s)\r\n"}
+,{"stream_name":"stdout","time":808.226234092,"data":"repeat 0 fold 0: MT-ST + class-balanced loss=0.83  MT-ST + self-supervised pretraining=0.83  MT-ST + 5-seed ensemble=0.83  MT-ST+=1.00  SVM=0.92  MT-ST=0.83  SVM=0.83 (122s)\r\n"}
+,{"stream_name":"stdout","time":927.906746818,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":927.906780764,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":927.952717364,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":927.952743756,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":928.003505953,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":928.003528062,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":928.003581674,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":928.003587785,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":928.054095882,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":928.054114619,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":928.10480931,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":928.10483239,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":938.040965873,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":938.041007148,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":938.091750603,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":938.091779714,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":938.091785812,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":938.09179103,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":938.142675249,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":938.142700763,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":938.142706674,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":938.142712638,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":938.193367837,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":938.193388263,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":938.244290449,"data":"repeat 0 fold 1: MT-ST + class-balanced loss=0.80  MT-ST + self-supervised pretraining=0.80  MT-ST + 5-seed ensemble=0.80  MT-ST+=0.70  SVM=1.00  MT-ST=1.00  SVM=1.00 (130s)\r\n"}
+,{"stream_name":"stdout","time":1068.348314983,"data":"repeat 0 fold 2: MT-ST + class-balanced loss=0.80  MT-ST + self-supervised pretraining=0.80  MT-ST + 5-seed ensemble=0.90  MT-ST+=0.90  SVM=1.00  MT-ST=0.80  SVM=1.00 (130s)\r\n"}
+,{"stream_name":"stdout","time":1199.275171129,"data":"repeat 0 fold 3: MT-ST + class-balanced loss=0.70  MT-ST + self-supervised pretraining=0.90  MT-ST + 5-seed ensemble=0.80  MT-ST+=0.90  SVM=1.00  MT-ST=0.80  SVM=0.90 (131s)\r\n"}
+,{"stream_name":"stdout","time":1329.620204919,"data":"repeat 0 fold 4: MT-ST + class-balanced loss=1.00  MT-ST + self-supervised pretraining=0.89  MT-ST + 5-seed ensemble=1.00  MT-ST+=1.00  SVM=0.89  MT-ST=1.00  SVM=0.89 (130s)\r\n"}
+,{"stream_name":"stdout","time":1451.715674598,"data":"repeat 1 fold 0: MT-ST + class-balanced loss=0.83  MT-ST + self-supervised pretraining=0.92  MT-ST + 5-seed ensemble=0.92  MT-ST+=0.92  SVM=0.83  MT-ST=0.92  SVM=0.83 (122s)\r\n"}
+,{"stream_name":"stdout","time":1581.548040694,"data":"repeat 1 fold 1: MT-ST + class-balanced loss=0.90  MT-ST + self-supervised pretraining=1.00  MT-ST + 5-seed ensemble=0.90  MT-ST+=1.00  SVM=0.90  MT-ST=0.90  SVM=0.90 (130s)\r\n"}
+,{"stream_name":"stdout","time":1711.61027263,"data":"repeat 1 fold 2: MT-ST + class-balanced loss=0.80  MT-ST + self-supervised pretraining=0.90  MT-ST + 5-seed ensemble=0.90  MT-ST+=0.90  SVM=1.00  MT-ST=0.90  SVM=0.90 (130s)\r\n"}
+,{"stream_name":"stdout","time":1841.889796811,"data":"repeat 1 fold 3: MT-ST + class-balanced loss=0.60  MT-ST + self-supervised pretraining=0.80  MT-ST + 5-seed ensemble=0.90  MT-ST+=0.80  SVM=1.00  MT-ST=0.90  SVM=0.90 (130s)\r\n"}
+,{"stream_name":"stdout","time":1971.897624317,"data":"repeat 1 fold 4: MT-ST + class-balanced loss=0.67  MT-ST + self-supervised pretraining=0.78  MT-ST + 5-seed ensemble=0.89  MT-ST+=0.89  SVM=1.00  MT-ST=0.67  SVM=0.89 (130s)\r\n"}
+,{"stream_name":"stdout","time":2093.210389457,"data":"repeat 2 fold 0: MT-ST + class-balanced loss=1.00  MT-ST + self-supervised pretraining=0.83  MT-ST + 5-seed ensemble=0.92  MT-ST+=1.00  SVM=1.00  MT-ST=0.83  SVM=1.00 (121s)\r\n"}
+,{"stream_name":"stdout","time":2223.366445112,"data":"repeat 2 fold 1: MT-ST + class-balanced loss=1.00  MT-ST + self-supervised pretraining=0.90  MT-ST + 5-seed ensemble=0.90  MT-ST+=0.90  SVM=0.90  MT-ST=1.00  SVM=0.80 (130s)\r\n"}
+,{"stream_name":"stdout","time":2354.112703564,"data":"repeat 2 fold 2: MT-ST + class-balanced loss=0.80  MT-ST + self-supervised pretraining=0.80  MT-ST + 5-seed ensemble=0.80  MT-ST+=0.80  SVM=1.00  MT-ST=0.80  SVM=0.80 (131s)\r\n"}
+,{"stream_name":"stdout","time":2473.215729732,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2473.215762972,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2473.26268896,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2473.262712224,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2473.313405167,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2473.313425347,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2473.364123244,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2473.364141408,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2473.364147262,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2473.36415256,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2473.415184629,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2473.415209214,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2483.349408553,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2483.349451264,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2483.399708216,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2483.399731448,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2483.449949882,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2483.44997224,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2483.449976979,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2483.449981622,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2483.500589256,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2483.500607595,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2483.500613045,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2483.500617344,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2483.551437378,"data":"repeat 2 fold 3: MT-ST + class-balanced loss=0.70  MT-ST + self-supervised pretraining=1.00  MT-ST + 5-seed ensemble=0.90  MT-ST+=1.00  SVM=1.00  MT-ST=0.90  SVM=1.00 (129s)\r\n"}
+,{"stream_name":"stdout","time":2613.228474003,"data":"repeat 2 fold 4: MT-ST + class-balanced loss=0.78  MT-ST + self-supervised pretraining=1.00  MT-ST + 5-seed ensemble=0.89  MT-ST+=0.89  SVM=1.00  MT-ST=0.89  SVM=1.00 (130s)\r\n"}
+,{"stream_name":"stdout","time":2734.759710192,"data":"repeat 3 fold 0: MT-ST + class-balanced loss=0.83  MT-ST + self-supervised pretraining=0.92  MT-ST + 5-seed ensemble=0.92  MT-ST+=0.92  SVM=0.83  MT-ST=0.75  SVM=0.92 (122s)\r\n"}
+,{"stream_name":"stdout","time":2865.375622667,"data":"repeat 3 fold 1: MT-ST + class-balanced loss=0.90  MT-ST + self-supervised pretraining=0.80  MT-ST + 5-seed ensemble=1.00  MT-ST+=0.80  SVM=1.00  MT-ST=0.80  SVM=0.80 (131s)\r\n"}
+,{"stream_name":"stdout","time":2985.908048435,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2985.908093277,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2985.955597592,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2985.955625077,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2986.005864827,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2986.005886673,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2986.005893709,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2986.005917598,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2986.056637431,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2986.056656549,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2986.107193155,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2986.107212996,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2996.128466578,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2996.128505917,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2996.128511998,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2996.128517115,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2996.179182417,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2996.179215523,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2996.179221513,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2996.17922677,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2996.230393325,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2996.230422959,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2996.230428848,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":2996.230433891,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":2996.281570468,"data":"repeat 3 fold 2: MT-ST + class-balanced loss=0.90  MT-ST + self-supervised pretraining=0.90  MT-ST + 5-seed ensemble=1.00  MT-ST+=1.00  SVM=1.00  MT-ST=0.90  SVM=1.00 (131s)\r\n"}
+,{"stream_name":"stdout","time":3126.757089315,"data":"repeat 3 fold 3: MT-ST + class-balanced loss=1.00  MT-ST + self-supervised pretraining=1.00  MT-ST + 5-seed ensemble=0.90  MT-ST+=0.80  SVM=0.70  MT-ST=0.70  SVM=0.70 (130s)\r\n"}
+,{"stream_name":"stdout","time":3258.001621671,"data":"repeat 3 fold 4: MT-ST + class-balanced loss=0.89  MT-ST + self-supervised pretraining=1.00  MT-ST + 5-seed ensemble=0.89  MT-ST+=0.78  SVM=0.89  MT-ST=0.78  SVM=1.00 (131s)\r\n"}
+,{"stream_name":"stdout","time":3379.625937699,"data":"repeat 4 fold 0: MT-ST + class-balanced loss=0.83  MT-ST + self-supervised pretraining=0.92  MT-ST + 5-seed ensemble=1.00  MT-ST+=0.92  SVM=0.83  MT-ST=0.75  SVM=0.92 (122s)\r\n"}
+,{"stream_name":"stdout","time":3510.616829418,"data":"repeat 4 fold 1: MT-ST + class-balanced loss=0.80  MT-ST + self-supervised pretraining=0.90  MT-ST + 5-seed ensemble=0.90  MT-ST+=1.00  SVM=0.70  MT-ST=1.00  SVM=0.90 (131s)\r\n"}
+,{"stream_name":"stdout","time":3632.40407327,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":3632.404121067,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":3632.451020013,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":3632.45104527,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":3632.451064634,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":3632.451070192,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":3632.501832349,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":3632.501855729,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":3632.552936655,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":3632.552961088,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":3632.552967838,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":3632.552973514,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":3642.725328199,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":3642.725366613,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":3642.775921501,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":3642.775959526,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":3642.775966574,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":3642.775972391,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":3642.826784772,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":3642.826806944,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":3642.826813281,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":3642.826819167,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":3642.877740696,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":3642.877760988,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":3642.928666103,"data":"repeat 4 fold 2: MT-ST + class-balanced loss=0.90  MT-ST + self-supervised pretraining=1.00  MT-ST + 5-seed ensemble=1.00  MT-ST+=1.00  SVM=1.00  MT-ST=1.00  SVM=0.90 (132s)\r\n"}
+,{"stream_name":"stdout","time":3773.547230995,"data":"repeat 4 fold 3: MT-ST + class-balanced loss=0.80  MT-ST + self-supervised pretraining=0.90  MT-ST + 5-seed ensemble=0.90  MT-ST+=0.90  SVM=0.90  MT-ST=0.80  SVM=0.90 (131s)\r\n"}
+,{"stream_name":"stdout","time":3904.563760462,"data":"repeat 4 fold 4: MT-ST + class-balanced loss=0.89  MT-ST + self-supervised pretraining=0.89  MT-ST + 5-seed ensemble=0.89  MT-ST+=0.89  SVM=0.89  MT-ST=0.89  SVM=0.89 (131s)\r\n"}
+,{"stream_name":"stdout","time":3904.563795795,"data":"MT-ST + class-balanced loss {'acc': 0.839, 'bacc': 0.797, 'f1': 0.803, 'kappa': 0.745}\r\n"}
+,{"stream_name":"stdout","time":3904.563801921,"data":"MT-ST + self-supervised pretraining {'acc': 0.894, 'bacc': 0.859, 'f1': 0.872, 'kappa': 0.83}\r\n"}
+,{"stream_name":"stdout","time":3904.61078345,"data":"MT-ST + 5-seed ensemble {'acc': 0.906, 'bacc': 0.863, 'f1': 0.873, 'kappa': 0.848}\r\n"}
+,{"stream_name":"stdout","time":3904.610807673,"data":"MT-ST+ (balanced + pretraining + ensemble) {'acc': 0.906, 'bacc': 0.866, 'f1': 0.878, 'kappa': 0.849}\r\n"}
+,{"stream_name":"stdout","time":3904.661660714,"data":"SVM (RBF), class-balanced {'acc': 0.925, 'bacc': 0.906, 'f1': 0.909, 'kappa': 0.882}\r\n"}
+,{"stream_name":"stdout","time":3904.661683328,"data":"MT-ST (reference, fixed lr) {'acc': 0.859, 'bacc': 0.806, 'f1': 0.821, 'kappa': 0.772}\r\n"}
+,{"stream_name":"stdout","time":3904.661688578,"data":"SVM (RBF) {'acc': 0.902, 'bacc': 0.848, 'f1': 0.865, 'kappa': 0.841}\r\n"}
+,{"stream_name":"stdout","time":3910.721948015,"data":"51 views, 27 fruits, stages=[18 23 10], device=cuda\r\n"}
+,{"stream_name":"stdout","time":3936.649733337,"data":"{\r\n"}
+,{"stream_name":"stdout","time":3936.649765458,"data":" \"SVM (RBF)\": {\r\n"}
+,{"stream_name":"stdout","time":3936.649770732,"data":"  \"mean_diff\": 0.0011111111111111072,\r\n"}
+,{"stream_name":"stdout","time":3936.649775085,"data":"  \"t\": 0.019497431687178917,\r\n"}
+,{"stream_name":"stdout","time":3936.649779642,"data":"  \"p_t\": 0.9846054778608915,\r\n"}
+,{"stream_name":"stdout","time":3936.649783956,"data":"  \"p_wilcoxon\": 0.5849596613614372,\r\n"}
+,{"stream_name":"stdout","time":3936.649788793,"data":"  \"folds_mtstplus_better\": 8,\r\n"}
+,{"stream_name":"stdout","time":3936.649792907,"data":"  \"folds_tied\": 12,\r\n"}
+,{"stream_name":"stdout","time":3936.649796952,"data":"  \"folds_worse\": 5\r\n"}
+,{"stream_name":"stdout","time":3936.649801095,"data":" },\r\n"}
+,{"stream_name":"stdout","time":3936.649805042,"data":" \"SVM (RBF), class-balanced\": {\r\n"}
+,{"stream_name":"stdout","time":3936.64980949,"data":"  \"mean_diff\": -0.023555555555555552,\r\n"}
+,{"stream_name":"stdout","time":3936.649813429,"data":"  \"t\": -0.3333290070459768,\r\n"}
+,{"stream_name":"stdout","time":3936.649817364,"data":"  \"p_t\": 0.7417805484859306,\r\n"}
+,{"stream_name":"stdout","time":3936.649821435,"data":"  \"p_wilcoxon\": 0.3112342907980342,\r\n"}
+,{"stream_name":"stdout","time":3936.649825507,"data":"  \"folds_mtstplus_better\": 8,\r\n"}
+,{"stream_name":"stdout","time":3936.64982946,"data":"  \"folds_tied\": 7,\r\n"}
+,{"stream_name":"stdout","time":3936.649833633,"data":"  \"folds_worse\": 10\r\n"}
+,{"stream_name":"stdout","time":3936.64983784,"data":" },\r\n"}
+,{"stream_name":"stdout","time":3936.649842139,"data":" \"MT-ST (reference, fixed lr)\": {\r\n"}
+,{"stream_name":"stdout","time":3936.649846267,"data":"  \"mean_diff\": 0.04355555555555554,\r\n"}
+,{"stream_name":"stdout","time":3936.64985027,"data":"  \"t\": 0.7319256501061797,\r\n"}
+,{"stream_name":"stdout","time":3936.649854217,"data":"  \"p_t\": 0.4713013353697706,\r\n"}
+,{"stream_name":"stdout","time":3936.649858376,"data":"  \"p_wilcoxon\": 0.027421838606317483,\r\n"}
+,{"stream_name":"stdout","time":3936.649874731,"data":"  \"folds_mtstplus_better\": 12,\r\n"}
+,{"stream_name":"stdout","time":3936.649878671,"data":"  \"folds_tied\": 10,\r\n"}
+,{"stream_name":"stdout","time":3936.649881721,"data":"  \"folds_worse\": 3\r\n"}
+,{"stream_name":"stdout","time":3936.649884749,"data":" },\r\n"}
+,{"stream_name":"stdout","time":3936.649887904,"data":" \"MT-ST + class-balanced loss\": {\r\n"}
+,{"stream_name":"stdout","time":3936.649891157,"data":"  \"mean_diff\": 0.06555555555555553,\r\n"}
+,{"stream_name":"stdout","time":3936.649894265,"data":"  \"t\": 1.0005780407896607,\r\n"}
+,{"stream_name":"stdout","time":3936.649897677,"data":"  \"p_t\": 0.327012950502766,\r\n"}
+,{"stream_name":"stdout","time":3936.649922383,"data":"  \"p_wilcoxon\": 0.02955722566795793,\r\n"}
+,{"stream_name":"stdout","time":3936.649925736,"data":"  \"folds_mtstplus_better\": 16,\r\n"}
+,{"stream_name":"stdout","time":3936.649929155,"data":"  \"folds_tied\": 4,\r\n"}
+,{"stream_name":"stdout","time":3936.649932327,"data":"  \"folds_worse\": 5\r\n"}
+,{"stream_name":"stdout","time":3936.649935476,"data":" },\r\n"}
+,{"stream_name":"stdout","time":3936.649938315,"data":" \"MT-ST + self-supervised pretraining\": {\r\n"}
+,{"stream_name":"stdout","time":3936.649941438,"data":"  \"mean_diff\": 0.00888888888888888,\r\n"}
+,{"stream_name":"stdout","time":3936.649944708,"data":"  \"t\": 0.17240218235606275,\r\n"}
+,{"stream_name":"stdout","time":3936.649947734,"data":"  \"p_t\": 0.8645669540860609,\r\n"}
+,{"stream_name":"stdout","time":3936.649950858,"data":"  \"p_wilcoxon\": 0.5362830231895717,\r\n"}
+,{"stream_name":"stdout","time":3936.64995426,"data":"  \"folds_mtstplus_better\": 7,\r\n"}
+,{"stream_name":"stdout","time":3936.649957536,"data":"  \"folds_tied\": 14,\r\n"}
+,{"stream_name":"stdout","time":3936.649960506,"data":"  \"folds_worse\": 4\r\n"}
+,{"stream_name":"stdout","time":3936.649963559,"data":" },\r\n"}
+,{"stream_name":"stdout","time":3936.649966428,"data":" \"MT-ST + 5-seed ensemble\": {\r\n"}
+,{"stream_name":"stdout","time":3936.649969813,"data":"  \"mean_diff\": -0.0017777777777777802,\r\n"}
+,{"stream_name":"stdout","time":3936.649972903,"data":"  \"t\": -0.03994389949359742,\r\n"}
+,{"stream_name":"stdout","time":3936.64997597,"data":"  \"p_t\": 0.9684682812830908,\r\n"}
+,{"stream_name":"stdout","time":3936.649979145,"data":"  \"p_wilcoxon\": 0.9018426437674963,\r\n"}
+,{"stream_name":"stdout","time":3936.649982421,"data":"  \"folds_mtstplus_better\": 6,\r\n"}
+,{"stream_name":"stdout","time":3936.64998554,"data":"  \"folds_tied\": 13,\r\n"}
+,{"stream_name":"stdout","time":3936.649988784,"data":"  \"folds_worse\": 6\r\n"}
+,{"stream_name":"stdout","time":3936.649991876,"data":" }\r\n"}
+,{"stream_name":"stdout","time":3936.649994823,"data":"}\r\n"}
+,{"stream_name":"stdout","time":3937.305881019,"data":"['improve.json', 'improve_stats.json', 'splits_image.json']\n"}
+,{"stream_name":"stderr","time":3940.380300215,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3940.380326593,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3940.532464083,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3940.532490231,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3941.316802879,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":3941.401993466,"data":"[NbConvertApp] Writing 72235 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":3943.818218868,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3944.451078618,"data":"[NbConvertApp] Writing 542194 bytes to __results__.html\n"}
+]

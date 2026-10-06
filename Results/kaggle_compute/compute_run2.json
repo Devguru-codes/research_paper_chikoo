@@ -1,0 +1,71 @@
+{
+ "1D-CNN": {
+  "params": 32197,
+  "mflops_per_spectrum": 1.50144,
+  "latency": {
+   "cuda": {
+    "median_ms": 0.4819060000045283,
+    "p95_ms": 0.5429282000008583
+   },
+   "cpu_1thr": {
+    "median_ms": 0.30996849999098686,
+    "p95_ms": 0.3915212499933318
+   },
+   "cpu_4thr": {
+    "median_ms": 0.3848870000098259,
+    "p95_ms": 0.47717319999946994
+   }
+  },
+  "sec_per_epoch": 0.04157204499999807,
+  "train_rows": 418,
+  "peak_vram_mb": 20.43359375
+ },
+ "1D-ViT": {
+  "params": 403205,
+  "mflops_per_spectrum": 25.994496,
+  "latency": {
+   "cuda": {
+    "median_ms": 1.1294190000086246,
+    "p95_ms": 1.6392803999835333
+   },
+   "cpu_1thr": {
+    "median_ms": 1.3492354999868894,
+    "p95_ms": 1.534989949999499
+   },
+   "cpu_4thr": {
+    "median_ms": 1.4507955000055972,
+    "p95_ms": 1.6756860000086249
+   }
+  },
+  "sec_per_epoch": 0.1197888464000016,
+  "train_rows": 418,
+  "peak_vram_mb": 49.75341796875
+ },
+ "MT-ST": {
+  "params": 547909,
+  "mflops_per_spectrum": 34.677376,
+  "latency": {
+   "cuda": {
+    "median_ms": 1.5623830000066619,
+    "p95_ms": 1.791992949985399
+   },
+   "cpu_1thr": {
+    "median_ms": 2.2154239999991887,
+    "p95_ms": 2.5835786000016014
+   },
+   "cpu_4thr": {
+    "median_ms": 2.4404669999995576,
+    "p95_ms": 2.9734435499790357
+   }
+  },
+  "sec_per_epoch": 0.1576199812000027,
+  "train_rows": 418,
+  "peak_vram_mb": 58.84765625
+ },
+ "hardware": {
+  "gpu": "Tesla T4",
+  "cpu": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+  "torch": "2.11.0+cu128",
+  "cpu_threads": 4
+ }
+}

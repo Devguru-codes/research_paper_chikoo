@@ -1,3 +1,12 @@
+> **Revision (October 2026) — please read first.** The analysis was rebuilt for the revised ICMLDE submission
+> (Paper ID 220, *"Multi-Task Spectral Transformer for Non-Destructive Sapota Quality Assessment with Near-Infrared
+> Hyperspectral Imaging"*). The current code and results are in **`Experiments/`**, **`Results/`** and **`Kaggle/`**
+> (see `Experiments/README.md` and `Results/README.md`). The revised study uses spectra extracted directly from the
+> raw Resonon Pika NIR-320 cubes (888.7–1714.6 nm; 27 labelled fruits, 51 fruit views) and 5×5 fruit-grouped
+> cross-validation. The text below describes the **originally submitted version** and is superseded where it differs:
+> in particular, the sugar/carbohydrate values in `Dataset/dataset.csv` are model-generated proxy values, not laboratory
+> measurements, and the earlier headline numbers (64.0 % accuracy, R² = 0.51) are replaced by the results in `Results/`.
+
 # Quantifying Sugar and Carbohydrate Levels in Sapota Using Hyperspectral Imaging and Multi-Task Spectral Transformers
 
 ![Architecture](Images/architecture_img.png)

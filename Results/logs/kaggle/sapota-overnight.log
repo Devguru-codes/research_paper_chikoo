@@ -1,0 +1,417 @@
+[{"stream_name":"stderr","time":5.209501312,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":5.209548512,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":5.985616051,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":5.985650743,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":5.985655954,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":5.985660137,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.531549154,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.531573103,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.531577343,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.531580813,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":13.340120104,"data":"2.11.0+cu128 Tesla T4\n"}
+,{"stream_name":"stdout","time":13.356627427,"data":"Writing models.py\n"}
+,{"stream_name":"stdout","time":13.382964565,"data":"Writing run_experiments.py\n"}
+,{"stream_name":"stdout","time":13.399850435,"data":"Writing run_csv_multitask.py\n"}
+,{"stream_name":"stdout","time":169.051933977,"data":"repeat 0 fold 0: sugar RMSE PLS regression=4.41  SVR=3.89  MT-ST=4.20  MT-ST regressi=3.64 (151s)\r\n"}
+,{"stream_name":"stdout","time":309.864009598,"data":"repeat 0 fold 1: sugar RMSE PLS regression=3.89  SVR=3.21  MT-ST=3.12  MT-ST regressi=3.39 (141s)\r\n"}
+,{"stream_name":"stdout","time":459.379302,"data":"repeat 0 fold 2: sugar RMSE PLS regression=4.48  SVR=3.89  MT-ST=3.40  MT-ST regressi=3.70 (150s)\r\n"}
+,{"stream_name":"stdout","time":599.27066354,"data":"repeat 0 fold 3: sugar RMSE PLS regression=5.41  SVR=4.85  MT-ST=4.61  MT-ST regressi=4.20 (140s)\r\n"}
+,{"stream_name":"stdout","time":743.903925411,"data":"repeat 0 fold 4: sugar RMSE PLS regression=4.71  SVR=4.18  MT-ST=3.19  MT-ST regressi=4.20 (145s)\r\n"}
+,{"stream_name":"stdout","time":883.783807497,"data":"repeat 1 fold 0: sugar RMSE PLS regression=5.11  SVR=4.79  MT-ST=4.93  MT-ST regressi=4.81 (140s)\r\n"}
+,{"stream_name":"stdout","time":1027.17306363,"data":"repeat 1 fold 1: sugar RMSE PLS regression=4.85  SVR=4.17  MT-ST=4.04  MT-ST regressi=3.99 (143s)\r\n"}
+,{"stream_name":"stdout","time":1172.252801948,"data":"repeat 1 fold 2: sugar RMSE PLS regression=4.76  SVR=3.89  MT-ST=3.29  MT-ST regressi=3.53 (145s)\r\n"}
+,{"stream_name":"stdout","time":1311.321857758,"data":"repeat 1 fold 3: sugar RMSE PLS regression=4.65  SVR=4.09  MT-ST=3.56  MT-ST regressi=3.97 (139s)\r\n"}
+,{"stream_name":"stdout","time":1455.824676785,"data":"repeat 1 fold 4: sugar RMSE PLS regression=3.85  SVR=3.41  MT-ST=3.14  MT-ST regressi=3.99 (144s)\r\n"}
+,{"stream_name":"stdout","time":1595.343180043,"data":"repeat 2 fold 0: sugar RMSE PLS regression=4.74  SVR=4.31  MT-ST=4.95  MT-ST regressi=4.29 (140s)\r\n"}
+,{"stream_name":"stdout","time":1738.897160802,"data":"repeat 2 fold 1: sugar RMSE PLS regression=4.06  SVR=3.84  MT-ST=3.86  MT-ST regressi=4.16 (144s)\r\n"}
+,{"stream_name":"stdout","time":1882.692770242,"data":"repeat 2 fold 2: sugar RMSE PLS regression=5.06  SVR=4.66  MT-ST=4.11  MT-ST regressi=3.72 (144s)\r\n"}
+,{"stream_name":"stdout","time":2027.047000134,"data":"repeat 2 fold 3: sugar RMSE PLS regression=3.33  SVR=2.55  MT-ST=3.47  MT-ST regressi=2.71 (144s)\r\n"}
+,{"stream_name":"stdout","time":2165.340388037,"data":"repeat 2 fold 4: sugar RMSE PLS regression=5.71  SVR=4.92  MT-ST=3.99  MT-ST regressi=4.78 (138s)\r\n"}
+,{"stream_name":"stdout","time":2310.011708474,"data":"repeat 3 fold 0: sugar RMSE PLS regression=3.80  SVR=3.03  MT-ST=2.87  MT-ST regressi=3.07 (145s)\r\n"}
+,{"stream_name":"stdout","time":2454.195239497,"data":"repeat 3 fold 1: sugar RMSE PLS regression=3.96  SVR=2.95  MT-ST=3.33  MT-ST regressi=2.93 (144s)\r\n"}
+,{"stream_name":"stdout","time":2598.329606703,"data":"repeat 3 fold 2: sugar RMSE PLS regression=4.51  SVR=3.91  MT-ST=3.92  MT-ST regressi=4.25 (144s)\r\n"}
+,{"stream_name":"stdout","time":2738.560104164,"data":"repeat 3 fold 3: sugar RMSE PLS regression=5.63  SVR=5.40  MT-ST=4.90  MT-ST regressi=4.74 (140s)\r\n"}
+,{"stream_name":"stdout","time":2885.16410753,"data":"repeat 3 fold 4: sugar RMSE PLS regression=4.90  SVR=4.52  MT-ST=4.25  MT-ST regressi=3.43 (147s)\r\n"}
+,{"stream_name":"stdout","time":3025.789831784,"data":"repeat 4 fold 0: sugar RMSE PLS regression=4.22  SVR=3.52  MT-ST=3.70  MT-ST regressi=3.45 (141s)\r\n"}
+,{"stream_name":"stdout","time":3172.909961403,"data":"repeat 4 fold 1: sugar RMSE PLS regression=4.27  SVR=3.88  MT-ST=3.97  MT-ST regressi=3.79 (147s)\r\n"}
+,{"stream_name":"stdout","time":3318.585325186,"data":"repeat 4 fold 2: sugar RMSE PLS regression=4.48  SVR=4.08  MT-ST=3.31  MT-ST regressi=3.88 (146s)\r\n"}
+,{"stream_name":"stdout","time":3457.577500292,"data":"repeat 4 fold 3: sugar RMSE PLS regression=5.00  SVR=4.88  MT-ST=4.49  MT-ST regressi=4.45 (139s)\r\n"}
+,{"stream_name":"stdout","time":3604.998433828,"data":"repeat 4 fold 4: sugar RMSE PLS regression=5.00  SVR=4.92  MT-ST=4.89  MT-ST regressi=3.94 (147s)\r\n"}
+,{"stream_name":"stdout","time":3604.998462299,"data":"1D-CNN (multi-task) {'sugar': 5.049, 'carbohydrate': 1.716, 'cls': 0.468}\r\n"}
+,{"stream_name":"stdout","time":3604.998492554,"data":"1D-ViT (multi-task) {'sugar': 4.28, 'carbohydrate': 2.058, 'cls': 0.65}\r\n"}
+,{"stream_name":"stdout","time":3605.040121027,"data":"MT-ST (multi-task, lambda_cls=0.5) {'sugar': 3.959, 'carbohydrate': 1.711, 'cls': 0.679}\r\n"}
+,{"stream_name":"stdout","time":3605.040167004,"data":"MT-ST classification only {'cls': 0.634}\r\n"}
+,{"stream_name":"stdout","time":3605.091155531,"data":"MT-ST lambda_cls=0.25 {'sugar': 3.97, 'carbohydrate': 1.744, 'cls': 0.667}\r\n"}
+,{"stream_name":"stdout","time":3605.091174498,"data":"MT-ST lambda_cls=0.5 (fixed lr) {'sugar': 3.928, 'carbohydrate': 1.764, 'cls': 0.665}\r\n"}
+,{"stream_name":"stdout","time":3605.141377388,"data":"MT-ST lambda_cls=1 {'sugar': 4.143, 'carbohydrate': 1.856, 'cls': 0.654}\r\n"}
+,{"stream_name":"stdout","time":3605.141397302,"data":"MT-ST lambda_cls=2 {'sugar': 4.262, 'carbohydrate': 1.968, 'cls': 0.665}\r\n"}
+,{"stream_name":"stdout","time":3605.141402482,"data":"MT-ST regression only (lambda_cls=0) {'sugar': 3.929, 'carbohydrate': 1.745}\r\n"}
+,{"stream_name":"stdout","time":3605.141407074,"data":"Majority class {'cls': 0.299}\r\n"}
+,{"stream_name":"stdout","time":3605.14141176,"data":"PLS regression {'sugar': 4.639, 'carbohydrate': 2.995}\r\n"}
+,{"stream_name":"stdout","time":3605.141416562,"data":"Random forest {'sugar': 4.365, 'carbohydrate': 2.527}\r\n"}
+,{"stream_name":"stdout","time":3605.141420842,"data":"Ridge regression {'sugar': 4.603, 'carbohydrate': 3.018}\r\n"}
+,{"stream_name":"stdout","time":3605.192020508,"data":"SVM (RBF) classifier {'cls': 0.683}\r\n"}
+,{"stream_name":"stdout","time":3605.192049723,"data":"SVR (RBF) {'sugar': 4.14, 'carbohydrate': 2.002}\r\n"}
+,{"stream_name":"stdout","time":3605.192055177,"data":"XGBoost {'sugar': 4.505, 'carbohydrate': 2.474}\r\n"}
+,{"stream_name":"stdout","time":3624.202892878,"data":"{\r\n"}
+,{"stream_name":"stdout","time":3624.202919272,"data":" \"sugar\": {\r\n"}
+,{"stream_name":"stdout","time":3624.202923838,"data":"  \"Random forest\": {\r\n"}
+,{"stream_name":"stdout","time":3624.202927411,"data":"   \"mean_rmse_diff\": 0.409371619007844,\r\n"}
+,{"stream_name":"stdout","time":3624.202931158,"data":"   \"t\": 1.582865510224483,\r\n"}
+,{"stream_name":"stdout","time":3624.202934678,"data":"   \"p_t\": 0.12654223928592598,\r\n"}
+,{"stream_name":"stdout","time":3624.202938198,"data":"   \"p_wilcoxon\": 0.00032907724380493164,\r\n"}
+,{"stream_name":"stdout","time":3624.202941699,"data":"   \"p_t_holm\": 1.0,\r\n"}
+,{"stream_name":"stdout","time":3624.202945152,"data":"   \"p_wilcoxon_holm\": 0.002632617950439453\r\n"}
+,{"stream_name":"stdout","time":3624.202948422,"data":"  },\r\n"}
+,{"stream_name":"stdout","time":3624.202951664,"data":"  \"MT-ST lambda_cls=0.25\": {\r\n"}
+,{"stream_name":"stdout","time":3624.202954798,"data":"   \"mean_rmse_diff\": 0.016349482571616995,\r\n"}
+,{"stream_name":"stdout","time":3624.202958092,"data":"   \"t\": 0.045594516587171195,\r\n"}
+,{"stream_name":"stdout","time":3624.202961323,"data":"   \"p_t\": 0.9640107027435664,\r\n"}
+,{"stream_name":"stdout","time":3624.202964802,"data":"   \"p_wilcoxon\": 0.9158032536506653,\r\n"}
+,{"stream_name":"stdout","time":3624.20296836,"data":"   \"p_t_holm\": 1.0,\r\n"}
+,{"stream_name":"stdout","time":3624.202971892,"data":"   \"p_wilcoxon_holm\": 1.0\r\n"}
+,{"stream_name":"stdout","time":3624.202975407,"data":"  },\r\n"}
+,{"stream_name":"stdout","time":3624.202978722,"data":"  \"MT-ST regression only (lambda_cls=0)\": {\r\n"}
+,{"stream_name":"stdout","time":3624.202982248,"data":"   \"mean_rmse_diff\": -0.01947358730093729,\r\n"}
+,{"stream_name":"stdout","time":3624.202985723,"data":"   \"t\": -0.067723171783577,\r\n"}
+,{"stream_name":"stdout","time":3624.202989039,"data":"   \"p_t\": 0.9465670591442004,\r\n"}
+,{"stream_name":"stdout","time":3624.202992248,"data":"   \"p_wilcoxon\": 0.9158032536506653,\r\n"}
+,{"stream_name":"stdout","time":3624.202995402,"data":"   \"p_t_holm\": 1.0,\r\n"}
+,{"stream_name":"stdout","time":3624.202998592,"data":"   \"p_wilcoxon_holm\": 1.0\r\n"}
+,{"stream_name":"stdout","time":3624.203001702,"data":"  },\r\n"}
+,{"stream_name":"stdout","time":3624.203004963,"data":"  \"MT-ST lambda_cls=2\": {\r\n"}
+,{"stream_name":"stdout","time":3624.203008392,"data":"   \"mean_rmse_diff\": 0.30705154220849723,\r\n"}
+,{"stream_name":"stdout","time":3624.203012235,"data":"   \"t\": 0.8891564317292406,\r\n"}
+,{"stream_name":"stdout","time":3624.203015803,"data":"   \"p_t\": 0.38274486613662095,\r\n"}
+,{"stream_name":"stdout","time":3624.203019295,"data":"   \"p_wilcoxon\": 0.05157625675201416,\r\n"}
+,{"stream_name":"stdout","time":3624.203022879,"data":"   \"p_t_holm\": 1.0,\r\n"}
+,{"stream_name":"stdout","time":3624.203026351,"data":"   \"p_wilcoxon_holm\": 0.2578812837600708\r\n"}
+,{"stream_name":"stdout","time":3624.203029804,"data":"  },\r\n"}
+,{"stream_name":"stdout","time":3624.203032995,"data":"  \"Ridge regression\": {\r\n"}
+,{"stream_name":"stdout","time":3624.203036121,"data":"   \"mean_rmse_diff\": 0.6540306679628227,\r\n"}
+,{"stream_name":"stdout","time":3624.203039282,"data":"   \"t\": 2.635959982575643,\r\n"}
+,{"stream_name":"stdout","time":3624.203042768,"data":"   \"p_t\": 0.014475256081661897,\r\n"}
+,{"stream_name":"stdout","time":3624.203054898,"data":"   \"p_wilcoxon\": 1.4901161193847656e-06,\r\n"}
+,{"stream_name":"stdout","time":3624.203058295,"data":"   \"p_t_holm\": 0.15922781689828086,\r\n"}
+,{"stream_name":"stdout","time":3624.203061802,"data":"   \"p_wilcoxon_holm\": 1.4901161193847656e-05\r\n"}
+,{"stream_name":"stdout","time":3624.203065352,"data":"  },\r\n"}
+,{"stream_name":"stdout","time":3624.203068653,"data":"  \"MT-ST lambda_cls=1\": {\r\n"}
+,{"stream_name":"stdout","time":3624.203072418,"data":"   \"mean_rmse_diff\": 0.19782793753661,\r\n"}
+,{"stream_name":"stdout","time":3624.203075617,"data":"   \"t\": 0.6761856791911297,\r\n"}
+,{"stream_name":"stdout","time":3624.203079286,"data":"   \"p_t\": 0.505387391878822,\r\n"}
+,{"stream_name":"stdout","time":3624.203082903,"data":"   \"p_wilcoxon\": 0.036682069301605225,\r\n"}
+,{"stream_name":"stdout","time":3624.203086051,"data":"   \"p_t_holm\": 1.0,\r\n"}
+,{"stream_name":"stdout","time":3624.203088866,"data":"   \"p_wilcoxon_holm\": 0.22009241580963135\r\n"}
+,{"stream_name":"stdout","time":3624.203092216,"data":"  },\r\n"}
+,{"stream_name":"stdout","time":3624.20309555,"data":"  \"1D-CNN (multi-task)\": {\r\n"}
+,{"stream_name":"stdout","time":3624.203098693,"data":"   \"mean_rmse_diff\": 1.0917856848843346,\r\n"}
+,{"stream_name":"stdout","time":3624.203102013,"data":"   \"t\": 4.081627587213646,\r\n"}
+,{"stream_name":"stdout","time":3624.203105673,"data":"   \"p_t\": 0.00042861345633876186,\r\n"}
+,{"stream_name":"stdout","time":3624.203109127,"data":"   \"p_wilcoxon\": 5.960464477539063e-08,\r\n"}
+,{"stream_name":"stdout","time":3624.203112617,"data":"   \"p_t_holm\": 0.005143361476065142,\r\n"}
+,{"stream_name":"stdout","time":3624.203116095,"data":"   \"p_wilcoxon_holm\": 7.152557373046875e-07\r\n"}
+,{"stream_name":"stdout","time":3624.20311941,"data":"  },\r\n"}
+,{"stream_name":"stdout","time":3624.203122547,"data":"  \"MT-ST lambda_cls=0.5 (fixed lr)\": {\r\n"}
+,{"stream_name":"stdout","time":3624.20312604,"data":"   \"mean_rmse_diff\": -0.015141947246325458,\r\n"}
+,{"stream_name":"stdout","time":3624.203148641,"data":"   \"t\": -0.04819272592822241,\r\n"}
+,{"stream_name":"stdout","time":3624.203155656,"data":"   \"p_t\": 0.9619614567388515,\r\n"}
+,{"stream_name":"stdout","time":3624.203159303,"data":"   \"p_wilcoxon\": 0.8739878535270691,\r\n"}
+,{"stream_name":"stdout","time":3624.203162553,"data":"   \"p_t_holm\": 1.0,\r\n"}
+,{"stream_name":"stdout","time":3624.203165521,"data":"   \"p_wilcoxon_holm\": 1.0\r\n"}
+,{"stream_name":"stdout","time":3624.203168788,"data":"  },\r\n"}
+,{"stream_name":"stdout","time":3624.203171715,"data":"  \"XGBoost\": {\r\n"}
+,{"stream_name":"stdout","time":3624.203174874,"data":"   \"mean_rmse_diff\": 0.5394064977943056,\r\n"}
+,{"stream_name":"stdout","time":3624.203178043,"data":"   \"t\": 1.77592644684165,\r\n"}
+,{"stream_name":"stdout","time":3624.203182933,"data":"   \"p_t\": 0.08842724331405952,\r\n"}
+,{"stream_name":"stdout","time":3624.203186444,"data":"   \"p_wilcoxon\": 0.00012022256851196289,\r\n"}
+,{"stream_name":"stdout","time":3624.203189892,"data":"   \"p_t_holm\": 0.7958451898265356,\r\n"}
+,{"stream_name":"stdout","time":3624.203193453,"data":"   \"p_wilcoxon_holm\": 0.001082003116607666\r\n"}
+,{"stream_name":"stdout","time":3624.203196931,"data":"  },\r\n"}
+,{"stream_name":"stdout","time":3624.203200166,"data":"  \"SVR (RBF)\": {\r\n"}
+,{"stream_name":"stdout","time":3624.203203568,"data":"   \"mean_rmse_diff\": 0.17058299145745878,\r\n"}
+,{"stream_name":"stdout","time":3624.203207084,"data":"   \"t\": 0.6889922658584793,\r\n"}
+,{"stream_name":"stdout","time":3624.203215214,"data":"   \"p_t\": 0.4974355303887461,\r\n"}
+,{"stream_name":"stdout","time":3624.203218598,"data":"   \"p_wilcoxon\": 0.06670159101486206,\r\n"}
+,{"stream_name":"stdout","time":3624.203221647,"data":"   \"p_t_holm\": 1.0,\r\n"}
+,{"stream_name":"stdout","time":3624.203224933,"data":"   \"p_wilcoxon_holm\": 0.26680636405944824\r\n"}
+,{"stream_name":"stdout","time":3624.203228327,"data":"  },\r\n"}
+,{"stream_name":"stdout","time":3624.203231572,"data":"  \"PLS regression\": {\r\n"}
+,{"stream_name":"stdout","time":3624.203234969,"data":"   \"mean_rmse_diff\": 0.6925347622583874,\r\n"}
+,{"stream_name":"stdout","time":3624.203238448,"data":"   \"t\": 2.6101141830013055,\r\n"}
+,{"stream_name":"stdout","time":3624.20324185,"data":"   \"p_t\": 0.015349180793743188,\r\n"}
+,{"stream_name":"stdout","time":3624.203245368,"data":"   \"p_wilcoxon\": 8.344650268554688e-07,\r\n"}
+,{"stream_name":"stdout","time":3624.203248913,"data":"   \"p_t_holm\": 0.15922781689828086,\r\n"}
+,{"stream_name":"stdout","time":3624.203252565,"data":"   \"p_wilcoxon_holm\": 9.179115295410156e-06\r\n"}
+,{"stream_name":"stdout","time":3624.203255869,"data":"  },\r\n"}
+,{"stream_name":"stdout","time":3624.203258948,"data":"  \"1D-ViT (multi-task)\": {\r\n"}
+,{"stream_name":"stdout","time":3624.20326203,"data":"   \"mean_rmse_diff\": 0.3248103699578417,\r\n"}
+,{"stream_name":"stdout","time":3624.203265303,"data":"   \"t\": 1.0339061428968797,\r\n"}
+,{"stream_name":"stdout","time":3624.203268578,"data":"   \"p_t\": 0.3114864586818138,\r\n"}
+,{"stream_name":"stdout","time":3624.203271978,"data":"   \"p_wilcoxon\": 0.012466490268707275,\r\n"}
+,{"stream_name":"stdout","time":3624.203275373,"data":"   \"p_t_holm\": 1.0,\r\n"}
+,{"stream_name":"stdout","time":3624.203278801,"data":"   \"p_wilcoxon_holm\": 0.08726543188095093\r\n"}
+,{"stream_name":"stdout","time":3624.203282316,"data":"  }\r\n"}
+,{"stream_name":"stdout","time":3624.203285519,"data":" },\r\n"}
+,{"stream_name":"stdout","time":3624.20328878,"data":" \"carbohydrate\": {\r\n"}
+,{"stream_name":"stdout","time":3624.203292211,"data":"  \"Random forest\": {\r\n"}
+,{"stream_name":"stdout","time":3624.203295421,"data":"   \"mean_rmse_diff\": 0.8163585306302743,\r\n"}
+,{"stream_name":"stdout","time":3624.203298921,"data":"   \"t\": 8.663963035929829,\r\n"}
+,{"stream_name":"stdout","time":3624.203302006,"data":"   \"p_t\": 7.479751131114463e-09,\r\n"}
+,{"stream_name":"stdout","time":3624.203305136,"data":"   \"p_wilcoxon\": 5.960464477539063e-08,\r\n"}
+,{"stream_name":"stdout","time":3624.203308361,"data":"   \"p_t_holm\": 7.479751131114463e-08,\r\n"}
+,{"stream_name":"stdout","time":3624.203311567,"data":"   \"p_wilcoxon_holm\": 7.152557373046875e-07\r\n"}
+,{"stream_name":"stdout","time":3624.203315058,"data":"  },\r\n"}
+,{"stream_name":"stdout","time":3624.203318164,"data":"  \"MT-ST lambda_cls=0.25\": {\r\n"}
+,{"stream_name":"stdout","time":3624.203321821,"data":"   \"mean_rmse_diff\": 0.03196181279603619,\r\n"}
+,{"stream_name":"stdout","time":3624.203325274,"data":"   \"t\": 0.39882361431639013,\r\n"}
+,{"stream_name":"stdout","time":3624.203330806,"data":"   \"p_t\": 0.6935495603951605,\r\n"}
+,{"stream_name":"stdout","time":3624.203334204,"data":"   \"p_wilcoxon\": 0.23036134243011475,\r\n"}
+,{"stream_name":"stdout","time":3624.203337475,"data":"   \"p_t_holm\": 1.0,\r\n"}
+,{"stream_name":"stdout","time":3624.20334087,"data":"   \"p_wilcoxon_holm\": 0.629817545413971\r\n"}
+,{"stream_name":"stdout","time":3624.20334405,"data":"  },\r\n"}
+,{"stream_name":"stdout","time":3624.203347171,"data":"  \"MT-ST regression only (lambda_cls=0)\": {\r\n"}
+,{"stream_name":"stdout","time":3624.203353888,"data":"   \"mean_rmse_diff\": 0.03335877242068484,\r\n"}
+,{"stream_name":"stdout","time":3624.203357236,"data":"   \"t\": 0.4162671262606129,\r\n"}
+,{"stream_name":"stdout","time":3624.203360611,"data":"   \"p_t\": 0.6809136454510808,\r\n"}
+,{"stream_name":"stdout","time":3624.203364281,"data":"   \"p_wilcoxon\": 0.20993918180465698,\r\n"}
+,{"stream_name":"stdout","time":3624.203373921,"data":"   \"p_t_holm\": 1.0,\r\n"}
+,{"stream_name":"stdout","time":3624.203377367,"data":"   \"p_wilcoxon_holm\": 0.629817545413971\r\n"}
+,{"stream_name":"stdout","time":3624.2033807,"data":"  },\r\n"}
+,{"stream_name":"stdout","time":3624.203383857,"data":"  \"MT-ST lambda_cls=2\": {\r\n"}
+,{"stream_name":"stdout","time":3624.203387331,"data":"   \"mean_rmse_diff\": 0.25817127419162156,\r\n"}
+,{"stream_name":"stdout","time":3624.203390791,"data":"   \"t\": 2.71908347994714,\r\n"}
+,{"stream_name":"stdout","time":3624.203394091,"data":"   \"p_t\": 0.011970607232842405,\r\n"}
+,{"stream_name":"stdout","time":3624.203397486,"data":"   \"p_wilcoxon\": 1.1920928955078125e-07,\r\n"}
+,{"stream_name":"stdout","time":3624.203401093,"data":"   \"p_t_holm\": 0.07182364339705442,\r\n"}
+,{"stream_name":"stdout","time":3624.203404581,"data":"   \"p_wilcoxon_holm\": 8.344650268554688e-07\r\n"}
+,{"stream_name":"stdout","time":3624.203408136,"data":"  },\r\n"}
+,{"stream_name":"stdout","time":3624.203411411,"data":"  \"Ridge regression\": {\r\n"}
+,{"stream_name":"stdout","time":3624.203414904,"data":"   \"mean_rmse_diff\": 1.3089067169292519,\r\n"}
+,{"stream_name":"stdout","time":3624.203418369,"data":"   \"t\": 14.755717163947896,\r\n"}
+,{"stream_name":"stdout","time":3624.203423284,"data":"   \"p_t\": 1.5514466221152647e-13,\r\n"}
+,{"stream_name":"stdout","time":3624.203427571,"data":"   \"p_wilcoxon\": 5.960464477539063e-08,\r\n"}
+,{"stream_name":"stdout","time":3624.203430964,"data":"   \"p_t_holm\": 1.8617359465383176e-12,\r\n"}
+,{"stream_name":"stdout","time":3624.203434065,"data":"   \"p_wilcoxon_holm\": 7.152557373046875e-07\r\n"}
+,{"stream_name":"stdout","time":3624.203437351,"data":"  },\r\n"}
+,{"stream_name":"stdout","time":3624.203440608,"data":"  \"MT-ST lambda_cls=1\": {\r\n"}
+,{"stream_name":"stdout","time":3624.203444006,"data":"   \"mean_rmse_diff\": 0.14603197956042255,\r\n"}
+,{"stream_name":"stdout","time":3624.203447395,"data":"   \"t\": 2.373062246753345,\r\n"}
+,{"stream_name":"stdout","time":3624.203451549,"data":"   \"p_t\": 0.025995233922075436,\r\n"}
+,{"stream_name":"stdout","time":3624.203454962,"data":"   \"p_wilcoxon\": 8.165836334228516e-06,\r\n"}
+,{"stream_name":"stdout","time":3624.203459418,"data":"   \"p_t_holm\": 0.12997616961037717,\r\n"}
+,{"stream_name":"stdout","time":3624.203462954,"data":"   \"p_wilcoxon_holm\": 4.082918167114258e-05\r\n"}
+,{"stream_name":"stdout","time":3624.2034661,"data":"  },\r\n"}
+,{"stream_name":"stdout","time":3624.203469362,"data":"  \"1D-CNN (multi-task)\": {\r\n"}
+,{"stream_name":"stdout","time":3624.20347266,"data":"   \"mean_rmse_diff\": 0.000103070655468116,\r\n"}
+,{"stream_name":"stdout","time":3624.20347647,"data":"   \"t\": 0.0012085681780395756,\r\n"}
+,{"stream_name":"stdout","time":3624.203479829,"data":"   \"p_t\": 0.9990456921160239,\r\n"}
+,{"stream_name":"stdout","time":3624.203483395,"data":"   \"p_wilcoxon\": 1.0,\r\n"}
+,{"stream_name":"stdout","time":3624.203486834,"data":"   \"p_t_holm\": 1.0,\r\n"}
+,{"stream_name":"stdout","time":3624.20349024,"data":"   \"p_wilcoxon_holm\": 1.0\r\n"}
+,{"stream_name":"stdout","time":3624.203493672,"data":"  },\r\n"}
+,{"stream_name":"stdout","time":3624.20349699,"data":"  \"MT-ST lambda_cls=0.5 (fixed lr)\": {\r\n"}
+,{"stream_name":"stdout","time":3624.203503611,"data":"   \"mean_rmse_diff\": 0.053687543785015154,\r\n"}
+,{"stream_name":"stdout","time":3624.203506909,"data":"   \"t\": 1.1612622295588446,\r\n"}
+,{"stream_name":"stdout","time":3624.20351013,"data":"   \"p_t\": 0.2569552880196639,\r\n"}
+,{"stream_name":"stdout","time":3624.203513204,"data":"   \"p_wilcoxon\": 0.0041751861572265625,\r\n"}
+,{"stream_name":"stdout","time":3624.203516199,"data":"   \"p_t_holm\": 1.0,\r\n"}
+,{"stream_name":"stdout","time":3624.203519522,"data":"   \"p_wilcoxon_holm\": 0.01670074462890625\r\n"}
+,{"stream_name":"stdout","time":3624.203523052,"data":"  },\r\n"}
+,{"stream_name":"stdout","time":3624.203526313,"data":"  \"XGBoost\": {\r\n"}
+,{"stream_name":"stdout","time":3624.203529665,"data":"   \"mean_rmse_diff\": 0.7626629550294262,\r\n"}
+,{"stream_name":"stdout","time":3624.203533145,"data":"   \"t\": 7.938157928358358,\r\n"}
+,{"stream_name":"stdout","time":3624.203536588,"data":"   \"p_t\": 3.619685655555042e-08,\r\n"}
+,{"stream_name":"stdout","time":3624.203540059,"data":"   \"p_wilcoxon\": 5.960464477539063e-08,\r\n"}
+,{"stream_name":"stdout","time":3624.203543575,"data":"   \"p_t_holm\": 3.257717089999538e-07,\r\n"}
+,{"stream_name":"stdout","time":3624.203546987,"data":"   \"p_wilcoxon_holm\": 7.152557373046875e-07\r\n"}
+,{"stream_name":"stdout","time":3624.203550237,"data":"  },\r\n"}
+,{"stream_name":"stdout","time":3624.203553318,"data":"  \"SVR (RBF)\": {\r\n"}
+,{"stream_name":"stdout","time":3624.203556541,"data":"   \"mean_rmse_diff\": 0.29296898886802974,\r\n"}
+,{"stream_name":"stdout","time":3624.20355967,"data":"   \"t\": 4.424574173545584,\r\n"}
+,{"stream_name":"stdout","time":3624.203563032,"data":"   \"p_t\": 0.00017943774618057255,\r\n"}
+,{"stream_name":"stdout","time":3624.203566488,"data":"   \"p_wilcoxon\": 5.960464477539063e-08,\r\n"}
+,{"stream_name":"stdout","time":3624.203569972,"data":"   \"p_t_holm\": 0.0014355019694445804,\r\n"}
+,{"stream_name":"stdout","time":3624.203573489,"data":"   \"p_wilcoxon_holm\": 7.152557373046875e-07\r\n"}
+,{"stream_name":"stdout","time":3624.203576955,"data":"  },\r\n"}
+,{"stream_name":"stdout","time":3624.203580268,"data":"  \"PLS regression\": {\r\n"}
+,{"stream_name":"stdout","time":3624.20358374,"data":"   \"mean_rmse_diff\": 1.2855032737021534,\r\n"}
+,{"stream_name":"stdout","time":3624.203587221,"data":"   \"t\": 13.851637126212093,\r\n"}
+,{"stream_name":"stdout","time":3624.203590516,"data":"   \"p_t\": 6.068999998184311e-13,\r\n"}
+,{"stream_name":"stdout","time":3624.203593685,"data":"   \"p_wilcoxon\": 5.960464477539063e-08,\r\n"}
+,{"stream_name":"stdout","time":3624.203596869,"data":"   \"p_t_holm\": 6.675899998002742e-12,\r\n"}
+,{"stream_name":"stdout","time":3624.203600076,"data":"   \"p_wilcoxon_holm\": 7.152557373046875e-07\r\n"}
+,{"stream_name":"stdout","time":3624.203603328,"data":"  },\r\n"}
+,{"stream_name":"stdout","time":3624.203606604,"data":"  \"1D-ViT (multi-task)\": {\r\n"}
+,{"stream_name":"stdout","time":3624.203610067,"data":"   \"mean_rmse_diff\": 0.3468514861176459,\r\n"}
+,{"stream_name":"stdout","time":3624.20361368,"data":"   \"t\": 3.7968511568370973,\r\n"}
+,{"stream_name":"stdout","time":3624.20361711,"data":"   \"p_t\": 0.0008789629759131696,\r\n"}
+,{"stream_name":"stdout","time":3624.203620552,"data":"   \"p_wilcoxon\": 1.1920928955078125e-07,\r\n"}
+,{"stream_name":"stdout","time":3624.20362401,"data":"   \"p_t_holm\": 0.006152740831392187,\r\n"}
+,{"stream_name":"stdout","time":3624.203627533,"data":"   \"p_wilcoxon_holm\": 8.344650268554688e-07\r\n"}
+,{"stream_name":"stdout","time":3624.203630942,"data":"  }\r\n"}
+,{"stream_name":"stdout","time":3624.203637147,"data":" }\r\n"}
+,{"stream_name":"stdout","time":3624.203640349,"data":"}\r\n"}
+,{"stream_name":"stdout","time":3627.54637721,"data":"51 views, 27 fruits, stages=[18 23 10], device=cuda\r\n"}
+,{"stream_name":"stdout","time":3759.926508653,"data":"pretrained seed 0: final masked-reconstruction MSE 0.015 (132s)\r\n"}
+,{"stream_name":"stdout","time":3889.851223172,"data":"pretrained seed 1: final masked-reconstruction MSE 0.014 (130s)\r\n"}
+,{"stream_name":"stdout","time":4019.396983479,"data":"pretrained seed 2: final masked-reconstruction MSE 0.038 (130s)\r\n"}
+,{"stream_name":"stdout","time":4149.153726392,"data":"pretrained seed 3: final masked-reconstruction MSE 0.012 (130s)\r\n"}
+,{"stream_name":"stdout","time":4278.628033691,"data":"pretrained seed 4: final masked-reconstruction MSE 0.015 (129s)\r\n"}
+,{"stream_name":"stdout","time":4389.289678846,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":4389.289718846,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":4389.334904372,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":4389.334930731,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":4389.385476223,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":4389.385496237,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":4389.436183541,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":4389.43620215,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":4389.436208345,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":4389.436213588,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":4389.486659547,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":4389.486676247,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":4389.537354244,"data":"repeat 0 fold 0: MT-ST + class-balanced loss=0.77  MT-ST + self-supervised pretraining=0.85  MT-ST + 5-seed ensemble=0.85  MT-ST+=0.85  SVM=0.85 (111s)\r\n"}
+,{"stream_name":"stdout","time":4507.821541399,"data":"repeat 0 fold 1: MT-ST + class-balanced loss=0.60  MT-ST + self-supervised pretraining=0.90  MT-ST + 5-seed ensemble=0.90  MT-ST+=0.90  SVM=0.90 (118s)\r\n"}
+,{"stream_name":"stdout","time":4626.047750355,"data":"repeat 0 fold 2: MT-ST + class-balanced loss=0.89  MT-ST + self-supervised pretraining=0.89  MT-ST + 5-seed ensemble=0.89  MT-ST+=0.89  SVM=1.00 (118s)\r\n"}
+,{"stream_name":"stdout","time":4744.393195928,"data":"repeat 0 fold 3: MT-ST + class-balanced loss=1.00  MT-ST + self-supervised pretraining=0.90  MT-ST + 5-seed ensemble=1.00  MT-ST+=0.90  SVM=0.90 (118s)\r\n"}
+,{"stream_name":"stdout","time":4861.779244213,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":4861.77928935,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":4861.779294908,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":4861.779298637,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":4861.779302089,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":4861.779305861,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":4861.779309116,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":4861.779312634,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":4861.779323044,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":4861.779326844,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":4861.779330476,"data":"repeat 0 fold 4: MT-ST + class-balanced loss=0.67  MT-ST + self-supervised pretraining=0.78  MT-ST + 5-seed ensemble=0.89  MT-ST+=0.89  SVM=0.78 (117s)\r\n"}
+,{"stream_name":"stdout","time":4963.825189654,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":4963.825227264,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":4963.871090378,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":4963.871113641,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":4963.871119421,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":4963.871129708,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":4963.871162164,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":4963.871167591,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":4963.922330774,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":4963.922348776,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":4963.922355481,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":4963.922360925,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":4963.972575948,"data":"repeat 1 fold 0: MT-ST + class-balanced loss=0.86  MT-ST + self-supervised pretraining=0.86  MT-ST + 5-seed ensemble=0.93  MT-ST+=0.93  SVM=0.86 (102s)\r\n"}
+,{"stream_name":"stdout","time":5081.972131553,"data":"repeat 1 fold 1: MT-ST + class-balanced loss=1.00  MT-ST + self-supervised pretraining=1.00  MT-ST + 5-seed ensemble=1.00  MT-ST+=1.00  SVM=0.88 (118s)\r\n"}
+,{"stream_name":"stdout","time":5199.569389367,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":5199.569428311,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":5199.614473652,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":5199.614502835,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":5199.664899614,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":5199.664920198,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":5199.664925998,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":5199.664930739,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":5199.715628737,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":5199.715648644,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":5199.715655292,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":5199.715661616,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":5199.766196548,"data":"repeat 1 fold 2: MT-ST + class-balanced loss=1.00  MT-ST + self-supervised pretraining=0.89  MT-ST + 5-seed ensemble=1.00  MT-ST+=1.00  SVM=0.89 (118s)\r\n"}
+,{"stream_name":"stdout","time":5309.38810381,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":5309.388135538,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":5309.425636496,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":5309.425656056,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":5309.47619287,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":5309.476213431,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":5309.476219235,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":5309.47622486,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":5309.527264292,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":5309.527282315,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":5309.577779107,"data":"repeat 1 fold 3: MT-ST + class-balanced loss=0.91  MT-ST + self-supervised pretraining=1.00  MT-ST + 5-seed ensemble=0.91  MT-ST+=1.00  SVM=0.91 (110s)\r\n"}
+,{"stream_name":"stdout","time":5427.336864056,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":5427.336904359,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":5427.33691163,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":5427.336918012,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":5427.374260992,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":5427.374284396,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":5427.425070207,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":5427.425104593,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":5427.425110487,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":5427.425115177,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":5427.475531163,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":5427.475560831,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":5427.526161808,"data":"repeat 1 fold 4: MT-ST + class-balanced loss=0.67  MT-ST + self-supervised pretraining=0.78  MT-ST + 5-seed ensemble=0.78  MT-ST+=0.78  SVM=1.00 (118s)\r\n"}
+,{"stream_name":"stdout","time":5537.558621301,"data":"repeat 2 fold 0: MT-ST + class-balanced loss=0.82  MT-ST + self-supervised pretraining=0.91  MT-ST + 5-seed ensemble=0.91  MT-ST+=0.91  SVM=0.82 (110s)\r\n"}
+,{"stream_name":"stdout","time":5663.189581724,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":5663.189615005,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":5663.189621347,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":5663.189626339,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":5663.229794129,"data":"repeat 2 fold 1: MT-ST + class-balanced loss=0.86  MT-ST + self-supervised pretraining=0.86  MT-ST + 5-seed ensemble=0.71  MT-ST+=0.86  SVM=0.86 (126s)\r\n"}
+,{"stream_name":"stdout","time":5772.874990037,"data":"repeat 2 fold 2: MT-ST + class-balanced loss=1.00  MT-ST + self-supervised pretraining=0.92  MT-ST + 5-seed ensemble=1.00  MT-ST+=1.00  SVM=0.92 (110s)\r\n"}
+,{"stream_name":"stdout","time":5882.741567611,"data":"repeat 2 fold 3: MT-ST + class-balanced loss=0.83  MT-ST + self-supervised pretraining=0.83  MT-ST + 5-seed ensemble=0.92  MT-ST+=0.83  SVM=0.83 (110s)\r\n"}
+,{"stream_name":"stdout","time":6000.491774366,"data":"repeat 2 fold 4: MT-ST + class-balanced loss=0.89  MT-ST + self-supervised pretraining=0.89  MT-ST + 5-seed ensemble=0.89  MT-ST+=0.89  SVM=1.00 (118s)\r\n"}
+,{"stream_name":"stdout","time":6102.790851141,"data":"repeat 3 fold 0: MT-ST + class-balanced loss=0.86  MT-ST + self-supervised pretraining=0.86  MT-ST + 5-seed ensemble=0.79  MT-ST+=0.93  SVM=0.86 (102s)\r\n"}
+,{"stream_name":"stdout","time":6220.267805706,"data":"repeat 3 fold 1: MT-ST + class-balanced loss=0.89  MT-ST + self-supervised pretraining=0.89  MT-ST + 5-seed ensemble=0.89  MT-ST+=0.78  SVM=0.89 (117s)\r\n"}
+,{"stream_name":"stdout","time":6338.115725504,"data":"repeat 3 fold 2: MT-ST + class-balanced loss=0.80  MT-ST + self-supervised pretraining=0.80  MT-ST + 5-seed ensemble=0.90  MT-ST+=0.90  SVM=0.80 (118s)\r\n"}
+,{"stream_name":"stdout","time":6455.893875204,"data":"repeat 3 fold 3: MT-ST + class-balanced loss=0.78  MT-ST + self-supervised pretraining=0.89  MT-ST + 5-seed ensemble=1.00  MT-ST+=1.00  SVM=1.00 (118s)\r\n"}
+,{"stream_name":"stdout","time":6573.355425759,"data":"repeat 3 fold 4: MT-ST + class-balanced loss=0.89  MT-ST + self-supervised pretraining=0.89  MT-ST + 5-seed ensemble=0.89  MT-ST+=1.00  SVM=0.78 (117s)\r\n"}
+,{"stream_name":"stdout","time":6675.434689178,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":6675.434720591,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":6675.478636255,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":6675.478658667,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":6675.478663945,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":6675.478668923,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":6675.529768113,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":6675.529788519,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":6675.529794558,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":6675.529799296,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":6675.580831758,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":6675.580847911,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":6675.5808524,"data":"repeat 4 fold 0: MT-ST + class-balanced loss=0.57  MT-ST + self-supervised pretraining=0.50  MT-ST + 5-seed ensemble=0.57  MT-ST+=0.57  SVM=0.86 (102s)\r\n"}
+,{"stream_name":"stdout","time":6793.057901346,"data":"repeat 4 fold 1: MT-ST + class-balanced loss=0.89  MT-ST + self-supervised pretraining=1.00  MT-ST + 5-seed ensemble=0.89  MT-ST+=1.00  SVM=1.00 (117s)\r\n"}
+,{"stream_name":"stdout","time":6911.027381646,"data":"repeat 4 fold 2: MT-ST + class-balanced loss=1.00  MT-ST + self-supervised pretraining=0.80  MT-ST + 5-seed ensemble=0.70  MT-ST+=0.80  SVM=0.80 (118s)\r\n"}
+,{"stream_name":"stdout","time":7028.630008404,"data":"repeat 4 fold 3: MT-ST + class-balanced loss=1.00  MT-ST + self-supervised pretraining=1.00  MT-ST + 5-seed ensemble=1.00  MT-ST+=1.00  SVM=1.00 (118s)\r\n"}
+,{"stream_name":"stdout","time":7146.199144757,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":7146.199191336,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":7146.199197829,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/metrics/_classification.py:2524: UserWarning: y_pred contains classes not in y_true\r\n"}
+,{"stream_name":"stdout","time":7146.199202028,"data":"  warnings.warn(\"y_pred contains classes not in y_true\")\r\n"}
+,{"stream_name":"stdout","time":7146.199205559,"data":"repeat 4 fold 4: MT-ST + class-balanced loss=0.89  MT-ST + self-supervised pretraining=0.89  MT-ST + 5-seed ensemble=1.00  MT-ST+=1.00  SVM=1.00 (118s)\r\n"}
+,{"stream_name":"stdout","time":7146.242959481,"data":"MT-ST + class-balanced loss {'acc': 0.847, 'bacc': 0.808, 'f1': 0.816, 'kappa': 0.755}\r\n"}
+,{"stream_name":"stdout","time":7146.242979681,"data":"MT-ST + self-supervised pretraining {'acc': 0.863, 'bacc': 0.812, 'f1': 0.826, 'kappa': 0.777}\r\n"}
+,{"stream_name":"stdout","time":7146.242984454,"data":"MT-ST + 5-seed ensemble {'acc': 0.882, 'bacc': 0.839, 'f1': 0.853, 'kappa': 0.81}\r\n"}
+,{"stream_name":"stdout","time":7146.29348207,"data":"MT-ST+ (balanced + pretraining + ensemble) {'acc': 0.898, 'bacc': 0.851, 'f1': 0.865, 'kappa': 0.834}\r\n"}
+,{"stream_name":"stdout","time":7146.29350069,"data":"SVM (RBF), class-balanced {'acc': 0.89, 'bacc': 0.862, 'f1': 0.866, 'kappa': 0.826}\r\n"}
+,{"stream_name":"stdout","time":7150.054002009,"data":"51 views, 27 fruits, stages=[18 23 10], device=cuda\r\n"}
+,{"stream_name":"stdout","time":7173.255262674,"data":"{\r\n"}
+,{"stream_name":"stdout","time":7173.255295723,"data":" \"SVM (RBF)\": {\r\n"}
+,{"stream_name":"stdout","time":7173.255300502,"data":"  \"mean_diff\": -0.007917193917193926,\r\n"}
+,{"stream_name":"stdout","time":7173.255304208,"data":"  \"t\": -0.11276931874518858,\r\n"}
+,{"stream_name":"stdout","time":7173.255307608,"data":"  \"p_t\": 0.9111514003111937,\r\n"}
+,{"stream_name":"stdout","time":7173.255317816,"data":"  \"p_wilcoxon\": 0.8187079411186621,\r\n"}
+,{"stream_name":"stdout","time":7173.255321272,"data":"  \"folds_mtstplus_better\": 10,\r\n"}
+,{"stream_name":"stdout","time":7173.255325019,"data":"  \"folds_tied\": 4,\r\n"}
+,{"stream_name":"stdout","time":7173.255328802,"data":"  \"folds_worse\": 11\r\n"}
+,{"stream_name":"stdout","time":7173.25533278,"data":" },\r\n"}
+,{"stream_name":"stdout","time":7173.255336371,"data":" \"SVM (RBF), class-balanced\": {\r\n"}
+,{"stream_name":"stdout","time":7173.255339939,"data":"  \"mean_diff\": 0.00944733044733045,\r\n"}
+,{"stream_name":"stdout","time":7173.255343326,"data":"  \"t\": 0.1571218750542957,\r\n"}
+,{"stream_name":"stdout","time":7173.255346703,"data":"  \"p_t\": 0.8764631567371424,\r\n"}
+,{"stream_name":"stdout","time":7173.255350097,"data":"  \"p_wilcoxon\": 0.43160671385778093,\r\n"}
+,{"stream_name":"stdout","time":7173.255355518,"data":"  \"folds_mtstplus_better\": 10,\r\n"}
+,{"stream_name":"stdout","time":7173.255362464,"data":"  \"folds_tied\": 10,\r\n"}
+,{"stream_name":"stdout","time":7173.25536467,"data":"  \"folds_worse\": 5\r\n"}
+,{"stream_name":"stdout","time":7173.255366919,"data":" },\r\n"}
+,{"stream_name":"stdout","time":7173.255368989,"data":" \"MT-ST\": {\r\n"}
+,{"stream_name":"stdout","time":7173.25537122,"data":"  \"mean_diff\": 0.010082806082806072,\r\n"}
+,{"stream_name":"stdout","time":7173.255373511,"data":"  \"t\": 0.14375751254042501,\r\n"}
+,{"stream_name":"stdout","time":7173.25537608,"data":"  \"p_t\": 0.8868922266690933,\r\n"}
+,{"stream_name":"stdout","time":7173.25537822,"data":"  \"p_wilcoxon\": 0.3383177811654525,\r\n"}
+,{"stream_name":"stdout","time":7173.255394658,"data":"  \"folds_mtstplus_better\": 13,\r\n"}
+,{"stream_name":"stdout","time":7173.255397001,"data":"  \"folds_tied\": 4,\r\n"}
+,{"stream_name":"stdout","time":7173.255399515,"data":"  \"folds_worse\": 8\r\n"}
+,{"stream_name":"stdout","time":7173.255401772,"data":" }\r\n"}
+,{"stream_name":"stdout","time":7173.255403833,"data":"}\r\n"}
+,{"stream_name":"stdout","time":7173.958905017,"data":"['csv_main.json', 'csv_stats.json', 'improve.json', 'improve_stats.json', 'main.json']\n"}
+,{"stream_name":"stderr","time":7176.81970882,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":7176.819736166,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":7176.971459796,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":7176.971482344,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":7177.682263055,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":7177.774775884,"data":"[NbConvertApp] Writing 383625 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":7180.120943152,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":7180.807420405,"data":"[NbConvertApp] Writing 913408 bytes to __results__.html\n"}
+]

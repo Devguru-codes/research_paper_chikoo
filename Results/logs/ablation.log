@@ -1,0 +1,9 @@
+51 views, 27 fruits, stages=[18 23 10], device=cuda
+Base MT-ST (4 layers, 8 heads, dropout 0.1, sinusoidal PE) {'acc': 0.894, 'bacc': 0.864, 'f1': 0.873, 'kappa': 0.831}
+w/o positional encoding {'acc': 0.729, 'bacc': 0.66, 'f1': 0.662, 'kappa': 0.564}
+w/o dropout {'acc': 0.855, 'bacc': 0.797, 'f1': 0.809, 'kappa': 0.765}
+2 encoder layers {'acc': 0.867, 'bacc': 0.835, 'f1': 0.84, 'kappa': 0.787}
+4 attention heads {'acc': 0.894, 'bacc': 0.879, 'f1': 0.879, 'kappa': 0.834}
+16 attention heads {'acc': 0.867, 'bacc': 0.818, 'f1': 0.829, 'kappa': 0.785}
+Patch size 10 (16 tokens) {'acc': 0.894, 'bacc': 0.856, 'f1': 0.87, 'kappa': 0.83}
+Patch size 1 (160 tokens) {'acc': 0.875, 'bacc': 0.848, 'f1': 0.856, 'kappa': 0.8}
